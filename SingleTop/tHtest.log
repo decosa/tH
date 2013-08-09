@@ -1,0 +1,7 @@
+----- Begin Fatal Exception 06-Aug-2013 18:37:42 CEST-----------------------
+An exception of category 'ConfigFileReadError' occurred while
+   [0] Processing the python configuration file named SingleTopSkim_TChannel_cfg.py
+Exception Message:
+python encountered the error: <type 'exceptions.IOError'>
+[Errno 2] No such file or directory: 'SingleTopSkim_TChannel_cfg.py'
+----- End Fatal Exception -------------------------------------------------

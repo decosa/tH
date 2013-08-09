@@ -1,0 +1,1320 @@
+test 
+PF2PAT: Jet collection used for pfMET significance:  cms.InputTag("pfJets")
+PF2PAT: selecting jet algorithm  AK5
+---------------------------------------------------------------------
+INFO   : cleaning has been removed. Switch output from clean PAT     
+         candidates to selected PAT candidates.
+Adapting PF Muons 
+***************** 
+WARNING: particle based isolation must be studied
+
+ muon source: cms.InputTag("pfIsolatedMuons")
+ isolation  : cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoValMuonWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoValMuonWithCharged"),
+    pfPhotons = cms.InputTag("isoValMuonWithPhotons")
+)
+ isodeposits: 
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoDepMuonWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoDepMuonWithCharged"),
+    pfPhotons = cms.InputTag("isoDepMuonWithPhotons")
+)
+
+Adapting PF Electrons 
+********************* 
+WARNING: particle based isolation must be studied
+
+ PF electron source: cms.InputTag("pfIsolatedElectrons")
+ isolation  :
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoValElectronWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoValElectronWithCharged"),
+    pfPhotons = cms.InputTag("isoValElectronWithPhotons")
+)
+ isodeposits: 
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoDepElectronWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoDepElectronWithCharged"),
+    pfPhotons = cms.InputTag("isoDepElectronWithPhotons")
+)
+
+removing traditional isolation
+Temporarily switching off photons completely
+WARNING: called applyPostfix for module/sequence cleanPatCandidateSummary which is not in patDefaultSequence!
+Switching to PFJets,   AK5
+************************ 
+input collection:  cms.InputTag("pfNoTau")
+PF2PAT: selecting jet algorithm  AK5
+=================================================
+Type1MET corrections are switched off for other  
+jet types but CaloJets. Users are recommened to  
+use pfMET together with PFJets & tcMET together  
+with JPT jets.                                   
+=================================================
+patTaus will be produced from taus of type: shrinkingConePFTau that pass ['DiscriminationByIsolation', 'DiscriminationByLeadingPionPtCut']
+Tau discriminators:  cms.InputTag("shrinkingConePFTauProducer") -> cms.InputTag("pfTaus")
+Tau type:  shrinkingConePFTau
+ Taus:  cms.InputTag("shrinkingConePFTauProducer") -> cms.InputTag("pfTaus")
+WARNING: called applyPostfix for module/sequence cleanPatTaus which is not in patDefaultSequence!
+WARNING: called applyPostfix for module/sequence makePatTaus which is not in patDefaultSequence!
+MET: using  cms.InputTag("pfMET")
+WARNING: called applyPostfix for module/sequence patCandidates which is not in patDefaultSequence!
+WARNING: called applyPostfix for module/sequence patCandidates which is not in patDefaultSequence!
+Done: PF2PAT interfaced to PAT, postfix= 
+Adapting PF Muons 
+***************** 
+WARNING: particle based isolation must be studied
+
+ muon source: cms.InputTag("pfIsolatedMuonsZeroIso")
+ isolation  : cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoValMuonWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoValMuonWithCharged"),
+    pfPhotons = cms.InputTag("isoValMuonWithPhotons")
+)
+ isodeposits: 
+cms.PSet(
+    pfNeutralHadrons = cms.InputTag("isoDepMuonWithNeutral"),
+    pfChargedHadrons = cms.InputTag("isoDepMuonWithCharged"),
+    pfPhotons = cms.InputTag("isoDepMuonWithPhotons")
+)
+
+02-Dec-2011 21:06:29 CET  Initiating request to open file file:/tmp/oiorio/FE4EF257-A3AB-E011-9698-00304867915A.root
+02-Dec-2011 21:06:30 CET  Successfully opened file file:/tmp/oiorio/FE4EF257-A3AB-E011-9698-00304867915A.root
+Begin processing the 1st record. Run 1, Event 2807801, LumiSection 6 at 02-Dec-2011 21:06:33.365 CET
+Begin processing the 2nd record. Run 1, Event 2807802, LumiSection 6 at 02-Dec-2011 21:06:47.018 CET
+Begin processing the 3rd record. Run 1, Event 2807803, LumiSection 6 at 02-Dec-2011 21:06:47.196 CET
+Begin processing the 4th record. Run 1, Event 2807804, LumiSection 6 at 02-Dec-2011 21:06:47.447 CET
+Begin processing the 5th record. Run 1, Event 2807805, LumiSection 6 at 02-Dec-2011 21:06:47.574 CET
+Begin processing the 6th record. Run 1, Event 2807806, LumiSection 6 at 02-Dec-2011 21:06:47.760 CET
+Begin processing the 7th record. Run 1, Event 2807807, LumiSection 6 at 02-Dec-2011 21:06:48.058 CET
+Begin processing the 8th record. Run 1, Event 2807808, LumiSection 6 at 02-Dec-2011 21:06:48.335 CET
+Begin processing the 9th record. Run 1, Event 2807809, LumiSection 6 at 02-Dec-2011 21:06:48.595 CET
+Begin processing the 10th record. Run 1, Event 2807810, LumiSection 6 at 02-Dec-2011 21:06:48.762 CET
+Begin processing the 11th record. Run 1, Event 2807811, LumiSection 6 at 02-Dec-2011 21:06:48.916 CET
+Begin processing the 12th record. Run 1, Event 2807812, LumiSection 6 at 02-Dec-2011 21:06:49.104 CET
+Begin processing the 13th record. Run 1, Event 2807813, LumiSection 6 at 02-Dec-2011 21:06:49.403 CET
+Begin processing the 14th record. Run 1, Event 2807814, LumiSection 6 at 02-Dec-2011 21:06:49.549 CET
+Begin processing the 15th record. Run 1, Event 2807815, LumiSection 6 at 02-Dec-2011 21:06:49.711 CET
+Begin processing the 16th record. Run 1, Event 2807817, LumiSection 6 at 02-Dec-2011 21:06:50.053 CET
+Begin processing the 17th record. Run 1, Event 2807818, LumiSection 6 at 02-Dec-2011 21:06:50.307 CET
+Begin processing the 18th record. Run 1, Event 2807819, LumiSection 6 at 02-Dec-2011 21:06:50.490 CET
+Begin processing the 19th record. Run 1, Event 2807820, LumiSection 6 at 02-Dec-2011 21:06:50.777 CET
+Begin processing the 20th record. Run 1, Event 2807821, LumiSection 6 at 02-Dec-2011 21:06:50.907 CET
+Begin processing the 21st record. Run 1, Event 2807822, LumiSection 6 at 02-Dec-2011 21:06:51.105 CET
+Begin processing the 22nd record. Run 1, Event 2807823, LumiSection 6 at 02-Dec-2011 21:06:51.533 CET
+Begin processing the 23rd record. Run 1, Event 2807824, LumiSection 6 at 02-Dec-2011 21:06:51.776 CET
+Begin processing the 24th record. Run 1, Event 2807825, LumiSection 6 at 02-Dec-2011 21:06:51.937 CET
+Begin processing the 25th record. Run 1, Event 2807826, LumiSection 6 at 02-Dec-2011 21:06:52.095 CET
+Begin processing the 26th record. Run 1, Event 2807827, LumiSection 6 at 02-Dec-2011 21:06:52.385 CET
+Begin processing the 27th record. Run 1, Event 2807828, LumiSection 6 at 02-Dec-2011 21:06:52.563 CET
+Begin processing the 28th record. Run 1, Event 2807829, LumiSection 6 at 02-Dec-2011 21:06:53.114 CET
+Begin processing the 29th record. Run 1, Event 2807830, LumiSection 6 at 02-Dec-2011 21:06:53.366 CET
+Begin processing the 30th record. Run 1, Event 2807831, LumiSection 6 at 02-Dec-2011 21:06:53.568 CET
+Begin processing the 31st record. Run 1, Event 2807832, LumiSection 6 at 02-Dec-2011 21:06:53.712 CET
+Begin processing the 32nd record. Run 1, Event 2807833, LumiSection 6 at 02-Dec-2011 21:06:54.183 CET
+Begin processing the 33rd record. Run 1, Event 2807834, LumiSection 6 at 02-Dec-2011 21:06:54.381 CET
+Begin processing the 34th record. Run 1, Event 2807835, LumiSection 6 at 02-Dec-2011 21:06:54.621 CET
+Begin processing the 35th record. Run 1, Event 2807836, LumiSection 6 at 02-Dec-2011 21:06:54.773 CET
+Begin processing the 36th record. Run 1, Event 2807837, LumiSection 6 at 02-Dec-2011 21:06:54.988 CET
+Begin processing the 37th record. Run 1, Event 2807838, LumiSection 6 at 02-Dec-2011 21:06:55.315 CET
+Begin processing the 38th record. Run 1, Event 2807839, LumiSection 6 at 02-Dec-2011 21:06:55.545 CET
+Begin processing the 39th record. Run 1, Event 2807840, LumiSection 6 at 02-Dec-2011 21:06:55.667 CET
+Begin processing the 40th record. Run 1, Event 2807841, LumiSection 6 at 02-Dec-2011 21:06:55.926 CET
+Begin processing the 41st record. Run 1, Event 2807843, LumiSection 6 at 02-Dec-2011 21:06:56.081 CET
+Begin processing the 42nd record. Run 1, Event 2807844, LumiSection 6 at 02-Dec-2011 21:06:56.237 CET
+Begin processing the 43rd record. Run 1, Event 2807845, LumiSection 6 at 02-Dec-2011 21:06:56.557 CET
+Begin processing the 44th record. Run 1, Event 2807846, LumiSection 6 at 02-Dec-2011 21:06:56.729 CET
+Begin processing the 45th record. Run 1, Event 2807847, LumiSection 6 at 02-Dec-2011 21:06:56.901 CET
+Begin processing the 46th record. Run 1, Event 2807848, LumiSection 6 at 02-Dec-2011 21:06:57.052 CET
+Begin processing the 47th record. Run 1, Event 2807849, LumiSection 6 at 02-Dec-2011 21:06:57.478 CET
+Begin processing the 48th record. Run 1, Event 2807850, LumiSection 6 at 02-Dec-2011 21:06:57.800 CET
+Begin processing the 49th record. Run 1, Event 2807851, LumiSection 6 at 02-Dec-2011 21:06:57.941 CET
+Begin processing the 50th record. Run 1, Event 2807852, LumiSection 6 at 02-Dec-2011 21:06:58.233 CET
+Begin processing the 51st record. Run 1, Event 2807853, LumiSection 6 at 02-Dec-2011 21:06:58.610 CET
+Begin processing the 52nd record. Run 1, Event 2807854, LumiSection 6 at 02-Dec-2011 21:06:58.749 CET
+Begin processing the 53rd record. Run 1, Event 2807855, LumiSection 6 at 02-Dec-2011 21:06:58.917 CET
+Begin processing the 54th record. Run 1, Event 2807856, LumiSection 6 at 02-Dec-2011 21:06:59.189 CET
+Begin processing the 55th record. Run 1, Event 2807858, LumiSection 6 at 02-Dec-2011 21:06:59.468 CET
+Begin processing the 56th record. Run 1, Event 2807859, LumiSection 6 at 02-Dec-2011 21:06:59.627 CET
+Begin processing the 57th record. Run 1, Event 2807860, LumiSection 6 at 02-Dec-2011 21:06:59.854 CET
+Begin processing the 58th record. Run 1, Event 2807861, LumiSection 6 at 02-Dec-2011 21:07:00.152 CET
+Begin processing the 59th record. Run 1, Event 2807862, LumiSection 6 at 02-Dec-2011 21:07:00.333 CET
+Begin processing the 60th record. Run 1, Event 2807863, LumiSection 6 at 02-Dec-2011 21:07:00.481 CET
+Begin processing the 61st record. Run 1, Event 2807864, LumiSection 6 at 02-Dec-2011 21:07:00.733 CET
+Begin processing the 62nd record. Run 1, Event 2807865, LumiSection 6 at 02-Dec-2011 21:07:01.127 CET
+Begin processing the 63rd record. Run 1, Event 2807866, LumiSection 6 at 02-Dec-2011 21:07:01.278 CET
+Begin processing the 64th record. Run 1, Event 2807867, LumiSection 6 at 02-Dec-2011 21:07:01.522 CET
+Begin processing the 65th record. Run 1, Event 2807869, LumiSection 6 at 02-Dec-2011 21:07:01.766 CET
+Begin processing the 66th record. Run 1, Event 2807870, LumiSection 6 at 02-Dec-2011 21:07:01.933 CET
+Begin processing the 67th record. Run 1, Event 2807871, LumiSection 6 at 02-Dec-2011 21:07:02.054 CET
+Begin processing the 68th record. Run 1, Event 2807872, LumiSection 6 at 02-Dec-2011 21:07:02.574 CET
+Begin processing the 69th record. Run 1, Event 2807873, LumiSection 6 at 02-Dec-2011 21:07:02.778 CET
+Begin processing the 70th record. Run 1, Event 2807874, LumiSection 6 at 02-Dec-2011 21:07:02.945 CET
+Begin processing the 71st record. Run 1, Event 2807875, LumiSection 6 at 02-Dec-2011 21:07:03.061 CET
+Begin processing the 72nd record. Run 1, Event 2807876, LumiSection 6 at 02-Dec-2011 21:07:03.214 CET
+Begin processing the 73rd record. Run 1, Event 2807877, LumiSection 6 at 02-Dec-2011 21:07:03.350 CET
+Begin processing the 74th record. Run 1, Event 2807878, LumiSection 6 at 02-Dec-2011 21:07:03.532 CET
+Begin processing the 75th record. Run 1, Event 2807879, LumiSection 6 at 02-Dec-2011 21:07:03.812 CET
+Begin processing the 76th record. Run 1, Event 2807880, LumiSection 6 at 02-Dec-2011 21:07:04.028 CET
+Begin processing the 77th record. Run 1, Event 2807881, LumiSection 6 at 02-Dec-2011 21:07:04.276 CET
+Begin processing the 78th record. Run 1, Event 2807882, LumiSection 6 at 02-Dec-2011 21:07:04.562 CET
+Begin processing the 79th record. Run 1, Event 2807883, LumiSection 6 at 02-Dec-2011 21:07:04.782 CET
+Begin processing the 80th record. Run 1, Event 2807884, LumiSection 6 at 02-Dec-2011 21:07:04.974 CET
+Begin processing the 81st record. Run 1, Event 2807885, LumiSection 6 at 02-Dec-2011 21:07:05.093 CET
+Begin processing the 82nd record. Run 1, Event 2807886, LumiSection 6 at 02-Dec-2011 21:07:05.227 CET
+Begin processing the 83rd record. Run 1, Event 2807887, LumiSection 6 at 02-Dec-2011 21:07:05.363 CET
+Begin processing the 84th record. Run 1, Event 2807888, LumiSection 6 at 02-Dec-2011 21:07:05.583 CET
+Begin processing the 85th record. Run 1, Event 2807889, LumiSection 6 at 02-Dec-2011 21:07:05.717 CET
+Begin processing the 86th record. Run 1, Event 2807890, LumiSection 6 at 02-Dec-2011 21:07:05.912 CET
+Begin processing the 87th record. Run 1, Event 2807891, LumiSection 6 at 02-Dec-2011 21:07:06.038 CET
+Begin processing the 88th record. Run 1, Event 2807892, LumiSection 6 at 02-Dec-2011 21:07:06.276 CET
+Begin processing the 89th record. Run 1, Event 2807893, LumiSection 6 at 02-Dec-2011 21:07:06.704 CET
+Begin processing the 90th record. Run 1, Event 2807894, LumiSection 6 at 02-Dec-2011 21:07:06.842 CET
+Begin processing the 91st record. Run 1, Event 2807895, LumiSection 6 at 02-Dec-2011 21:07:07.036 CET
+Begin processing the 92nd record. Run 1, Event 2807896, LumiSection 6 at 02-Dec-2011 21:07:07.177 CET
+Begin processing the 93rd record. Run 1, Event 2807897, LumiSection 6 at 02-Dec-2011 21:07:07.483 CET
+Begin processing the 94th record. Run 1, Event 2807898, LumiSection 6 at 02-Dec-2011 21:07:07.627 CET
+Begin processing the 95th record. Run 1, Event 2807899, LumiSection 6 at 02-Dec-2011 21:07:07.798 CET
+Begin processing the 96th record. Run 1, Event 2807900, LumiSection 6 at 02-Dec-2011 21:07:08.161 CET
+Begin processing the 97th record. Run 1, Event 2807901, LumiSection 6 at 02-Dec-2011 21:07:08.367 CET
+Begin processing the 98th record. Run 1, Event 2807902, LumiSection 6 at 02-Dec-2011 21:07:08.489 CET
+Begin processing the 99th record. Run 1, Event 2807903, LumiSection 6 at 02-Dec-2011 21:07:08.690 CET
+Begin processing the 100th record. Run 1, Event 2807904, LumiSection 6 at 02-Dec-2011 21:07:08.989 CET
+Begin processing the 101st record. Run 1, Event 2807905, LumiSection 6 at 02-Dec-2011 21:07:09.277 CET
+Begin processing the 102nd record. Run 1, Event 2807906, LumiSection 6 at 02-Dec-2011 21:07:09.413 CET
+Begin processing the 103rd record. Run 1, Event 2807907, LumiSection 6 at 02-Dec-2011 21:07:09.560 CET
+Begin processing the 104th record. Run 1, Event 2807908, LumiSection 6 at 02-Dec-2011 21:07:09.819 CET
+Begin processing the 105th record. Run 1, Event 2807909, LumiSection 6 at 02-Dec-2011 21:07:10.010 CET
+Begin processing the 106th record. Run 1, Event 2807910, LumiSection 6 at 02-Dec-2011 21:07:10.167 CET
+Begin processing the 107th record. Run 1, Event 2807911, LumiSection 6 at 02-Dec-2011 21:07:10.309 CET
+Begin processing the 108th record. Run 1, Event 2807912, LumiSection 6 at 02-Dec-2011 21:07:10.717 CET
+Begin processing the 109th record. Run 1, Event 2807913, LumiSection 6 at 02-Dec-2011 21:07:10.905 CET
+Begin processing the 110th record. Run 1, Event 2807914, LumiSection 6 at 02-Dec-2011 21:07:11.060 CET
+Begin processing the 111th record. Run 1, Event 2807915, LumiSection 6 at 02-Dec-2011 21:07:11.212 CET
+Begin processing the 112th record. Run 1, Event 2807916, LumiSection 6 at 02-Dec-2011 21:07:11.470 CET
+Begin processing the 113th record. Run 1, Event 2807917, LumiSection 6 at 02-Dec-2011 21:07:11.809 CET
+Begin processing the 114th record. Run 1, Event 2807918, LumiSection 6 at 02-Dec-2011 21:07:11.955 CET
+Begin processing the 115th record. Run 1, Event 2807919, LumiSection 6 at 02-Dec-2011 21:07:12.213 CET
+Begin processing the 116th record. Run 1, Event 2807920, LumiSection 6 at 02-Dec-2011 21:07:12.360 CET
+Begin processing the 117th record. Run 1, Event 2807921, LumiSection 6 at 02-Dec-2011 21:07:12.737 CET
+Begin processing the 118th record. Run 1, Event 2807922, LumiSection 6 at 02-Dec-2011 21:07:12.859 CET
+Begin processing the 119th record. Run 1, Event 2807923, LumiSection 6 at 02-Dec-2011 21:07:13.224 CET
+Begin processing the 120th record. Run 1, Event 2807924, LumiSection 6 at 02-Dec-2011 21:07:13.630 CET
+Begin processing the 121st record. Run 1, Event 2807925, LumiSection 6 at 02-Dec-2011 21:07:13.811 CET
+Begin processing the 122nd record. Run 1, Event 2807926, LumiSection 6 at 02-Dec-2011 21:07:13.990 CET
+Begin processing the 123rd record. Run 1, Event 2807927, LumiSection 6 at 02-Dec-2011 21:07:14.109 CET
+Begin processing the 124th record. Run 1, Event 2807928, LumiSection 6 at 02-Dec-2011 21:07:14.398 CET
+Begin processing the 125th record. Run 1, Event 2807929, LumiSection 6 at 02-Dec-2011 21:07:14.542 CET
+Begin processing the 126th record. Run 1, Event 2807930, LumiSection 6 at 02-Dec-2011 21:07:14.702 CET
+Begin processing the 127th record. Run 1, Event 2807931, LumiSection 6 at 02-Dec-2011 21:07:14.857 CET
+Begin processing the 128th record. Run 1, Event 2807932, LumiSection 6 at 02-Dec-2011 21:07:14.991 CET
+Begin processing the 129th record. Run 1, Event 2807933, LumiSection 6 at 02-Dec-2011 21:07:15.110 CET
+Begin processing the 130th record. Run 1, Event 2807934, LumiSection 6 at 02-Dec-2011 21:07:15.233 CET
+Begin processing the 131st record. Run 1, Event 2807935, LumiSection 6 at 02-Dec-2011 21:07:15.367 CET
+Begin processing the 132nd record. Run 1, Event 2807936, LumiSection 6 at 02-Dec-2011 21:07:15.541 CET
+Begin processing the 133rd record. Run 1, Event 2807937, LumiSection 6 at 02-Dec-2011 21:07:15.758 CET
+Begin processing the 134th record. Run 1, Event 2807938, LumiSection 6 at 02-Dec-2011 21:07:16.078 CET
+Begin processing the 135th record. Run 1, Event 2807939, LumiSection 6 at 02-Dec-2011 21:07:16.347 CET
+Begin processing the 136th record. Run 1, Event 2807940, LumiSection 6 at 02-Dec-2011 21:07:16.575 CET
+Begin processing the 137th record. Run 1, Event 2807941, LumiSection 6 at 02-Dec-2011 21:07:16.949 CET
+Begin processing the 138th record. Run 1, Event 2807942, LumiSection 6 at 02-Dec-2011 21:07:17.296 CET
+Begin processing the 139th record. Run 1, Event 2807943, LumiSection 6 at 02-Dec-2011 21:07:17.478 CET
+Begin processing the 140th record. Run 1, Event 2807944, LumiSection 6 at 02-Dec-2011 21:07:17.654 CET
+Begin processing the 141st record. Run 1, Event 2807945, LumiSection 6 at 02-Dec-2011 21:07:17.785 CET
+Begin processing the 142nd record. Run 1, Event 2807946, LumiSection 6 at 02-Dec-2011 21:07:18.087 CET
+Begin processing the 143rd record. Run 1, Event 2807947, LumiSection 6 at 02-Dec-2011 21:07:18.209 CET
+Begin processing the 144th record. Run 1, Event 2807948, LumiSection 6 at 02-Dec-2011 21:07:18.500 CET
+Begin processing the 145th record. Run 1, Event 2807949, LumiSection 6 at 02-Dec-2011 21:07:18.740 CET
+Begin processing the 146th record. Run 1, Event 2807950, LumiSection 6 at 02-Dec-2011 21:07:19.070 CET
+Begin processing the 147th record. Run 1, Event 2807951, LumiSection 6 at 02-Dec-2011 21:07:19.447 CET
+Begin processing the 148th record. Run 1, Event 2807952, LumiSection 6 at 02-Dec-2011 21:07:19.695 CET
+Begin processing the 149th record. Run 1, Event 2807953, LumiSection 6 at 02-Dec-2011 21:07:19.835 CET
+Begin processing the 150th record. Run 1, Event 2807954, LumiSection 6 at 02-Dec-2011 21:07:19.954 CET
+Begin processing the 151st record. Run 1, Event 2807955, LumiSection 6 at 02-Dec-2011 21:07:20.112 CET
+Begin processing the 152nd record. Run 1, Event 2807956, LumiSection 6 at 02-Dec-2011 21:07:20.319 CET
+Begin processing the 153rd record. Run 1, Event 2807957, LumiSection 6 at 02-Dec-2011 21:07:20.441 CET
+Begin processing the 154th record. Run 1, Event 2807958, LumiSection 6 at 02-Dec-2011 21:07:20.589 CET
+Begin processing the 155th record. Run 1, Event 2807959, LumiSection 6 at 02-Dec-2011 21:07:20.778 CET
+Begin processing the 156th record. Run 1, Event 2807960, LumiSection 6 at 02-Dec-2011 21:07:21.069 CET
+Begin processing the 157th record. Run 1, Event 2807961, LumiSection 6 at 02-Dec-2011 21:07:21.230 CET
+Begin processing the 158th record. Run 1, Event 2807962, LumiSection 6 at 02-Dec-2011 21:07:21.669 CET
+Begin processing the 159th record. Run 1, Event 2807963, LumiSection 6 at 02-Dec-2011 21:07:21.817 CET
+Begin processing the 160th record. Run 1, Event 2807964, LumiSection 6 at 02-Dec-2011 21:07:22.086 CET
+Begin processing the 161st record. Run 1, Event 2807965, LumiSection 6 at 02-Dec-2011 21:07:22.218 CET
+Begin processing the 162nd record. Run 1, Event 2807966, LumiSection 6 at 02-Dec-2011 21:07:22.531 CET
+Begin processing the 163rd record. Run 1, Event 2807967, LumiSection 6 at 02-Dec-2011 21:07:22.689 CET
+Begin processing the 164th record. Run 1, Event 2807968, LumiSection 6 at 02-Dec-2011 21:07:22.855 CET
+Begin processing the 165th record. Run 1, Event 2807969, LumiSection 6 at 02-Dec-2011 21:07:23.022 CET
+Begin processing the 166th record. Run 1, Event 2807970, LumiSection 6 at 02-Dec-2011 21:07:23.311 CET
+Begin processing the 167th record. Run 1, Event 2807971, LumiSection 6 at 02-Dec-2011 21:07:23.447 CET
+Begin processing the 168th record. Run 1, Event 2807972, LumiSection 6 at 02-Dec-2011 21:07:23.601 CET
+Begin processing the 169th record. Run 1, Event 2807973, LumiSection 6 at 02-Dec-2011 21:07:23.738 CET
+Begin processing the 170th record. Run 1, Event 2807974, LumiSection 6 at 02-Dec-2011 21:07:23.914 CET
+Begin processing the 171st record. Run 1, Event 2807975, LumiSection 6 at 02-Dec-2011 21:07:24.072 CET
+Begin processing the 172nd record. Run 1, Event 2807976, LumiSection 6 at 02-Dec-2011 21:07:24.278 CET
+Begin processing the 173rd record. Run 1, Event 2807977, LumiSection 6 at 02-Dec-2011 21:07:24.518 CET
+Begin processing the 174th record. Run 1, Event 2807978, LumiSection 6 at 02-Dec-2011 21:07:24.732 CET
+Begin processing the 175th record. Run 1, Event 2807979, LumiSection 6 at 02-Dec-2011 21:07:24.909 CET
+Begin processing the 176th record. Run 1, Event 2807981, LumiSection 6 at 02-Dec-2011 21:07:25.263 CET
+Begin processing the 177th record. Run 1, Event 2807982, LumiSection 6 at 02-Dec-2011 21:07:25.453 CET
+Begin processing the 178th record. Run 1, Event 2807983, LumiSection 6 at 02-Dec-2011 21:07:25.651 CET
+Begin processing the 179th record. Run 1, Event 2807984, LumiSection 6 at 02-Dec-2011 21:07:25.829 CET
+Begin processing the 180th record. Run 1, Event 2807985, LumiSection 6 at 02-Dec-2011 21:07:26.167 CET
+Begin processing the 181st record. Run 1, Event 2807986, LumiSection 6 at 02-Dec-2011 21:07:26.417 CET
+Begin processing the 182nd record. Run 1, Event 2807987, LumiSection 6 at 02-Dec-2011 21:07:26.652 CET
+Begin processing the 183rd record. Run 1, Event 2807988, LumiSection 6 at 02-Dec-2011 21:07:26.877 CET
+Begin processing the 184th record. Run 1, Event 2807989, LumiSection 6 at 02-Dec-2011 21:07:27.444 CET
+Begin processing the 185th record. Run 1, Event 2807990, LumiSection 6 at 02-Dec-2011 21:07:27.754 CET
+Begin processing the 186th record. Run 1, Event 2807991, LumiSection 6 at 02-Dec-2011 21:07:27.869 CET
+Begin processing the 187th record. Run 1, Event 2807992, LumiSection 6 at 02-Dec-2011 21:07:28.180 CET
+Begin processing the 188th record. Run 1, Event 2807993, LumiSection 6 at 02-Dec-2011 21:07:28.402 CET
+Begin processing the 189th record. Run 1, Event 2807994, LumiSection 6 at 02-Dec-2011 21:07:28.562 CET
+Begin processing the 190th record. Run 1, Event 2807995, LumiSection 6 at 02-Dec-2011 21:07:28.805 CET
+Begin processing the 191st record. Run 1, Event 2807996, LumiSection 6 at 02-Dec-2011 21:07:29.134 CET
+Begin processing the 192nd record. Run 1, Event 2807997, LumiSection 6 at 02-Dec-2011 21:07:29.343 CET
+Begin processing the 193rd record. Run 1, Event 2807998, LumiSection 6 at 02-Dec-2011 21:07:29.502 CET
+Begin processing the 194th record. Run 1, Event 2807999, LumiSection 6 at 02-Dec-2011 21:07:30.014 CET
+Begin processing the 195th record. Run 1, Event 2808000, LumiSection 6 at 02-Dec-2011 21:07:30.134 CET
+Begin processing the 196th record. Run 1, Event 2808001, LumiSection 6 at 02-Dec-2011 21:07:30.314 CET
+Begin processing the 197th record. Run 1, Event 2808002, LumiSection 6 at 02-Dec-2011 21:07:30.449 CET
+Begin processing the 198th record. Run 1, Event 2808003, LumiSection 6 at 02-Dec-2011 21:07:30.609 CET
+Begin processing the 199th record. Run 1, Event 2808004, LumiSection 6 at 02-Dec-2011 21:07:30.965 CET
+Begin processing the 200th record. Run 1, Event 2808005, LumiSection 6 at 02-Dec-2011 21:07:31.125 CET
+Begin processing the 201st record. Run 1, Event 2808006, LumiSection 6 at 02-Dec-2011 21:07:31.289 CET
+Begin processing the 202nd record. Run 1, Event 2808007, LumiSection 6 at 02-Dec-2011 21:07:31.407 CET
+Begin processing the 203rd record. Run 1, Event 2808008, LumiSection 6 at 02-Dec-2011 21:07:31.638 CET
+Begin processing the 204th record. Run 1, Event 2808009, LumiSection 6 at 02-Dec-2011 21:07:31.750 CET
+Begin processing the 205th record. Run 1, Event 2808010, LumiSection 6 at 02-Dec-2011 21:07:31.891 CET
+Begin processing the 206th record. Run 1, Event 2808011, LumiSection 6 at 02-Dec-2011 21:07:32.166 CET
+Begin processing the 207th record. Run 1, Event 2808012, LumiSection 6 at 02-Dec-2011 21:07:32.392 CET
+Begin processing the 208th record. Run 1, Event 2808013, LumiSection 6 at 02-Dec-2011 21:07:32.621 CET
+Begin processing the 209th record. Run 1, Event 2808014, LumiSection 6 at 02-Dec-2011 21:07:32.847 CET
+Begin processing the 210th record. Run 1, Event 2808015, LumiSection 6 at 02-Dec-2011 21:07:33.122 CET
+Begin processing the 211th record. Run 1, Event 2808016, LumiSection 6 at 02-Dec-2011 21:07:33.356 CET
+Begin processing the 212th record. Run 1, Event 2808017, LumiSection 6 at 02-Dec-2011 21:07:33.553 CET
+Begin processing the 213th record. Run 1, Event 2808018, LumiSection 6 at 02-Dec-2011 21:07:33.753 CET
+Begin processing the 214th record. Run 1, Event 2808019, LumiSection 6 at 02-Dec-2011 21:07:33.898 CET
+Begin processing the 215th record. Run 1, Event 2808020, LumiSection 6 at 02-Dec-2011 21:07:34.077 CET
+Begin processing the 216th record. Run 1, Event 2808021, LumiSection 6 at 02-Dec-2011 21:07:34.214 CET
+Begin processing the 217th record. Run 1, Event 2808022, LumiSection 6 at 02-Dec-2011 21:07:34.576 CET
+Begin processing the 218th record. Run 1, Event 2808023, LumiSection 6 at 02-Dec-2011 21:07:34.798 CET
+Begin processing the 219th record. Run 1, Event 2808024, LumiSection 6 at 02-Dec-2011 21:07:35.073 CET
+Begin processing the 220th record. Run 1, Event 2808025, LumiSection 6 at 02-Dec-2011 21:07:35.340 CET
+Begin processing the 221st record. Run 1, Event 2808026, LumiSection 6 at 02-Dec-2011 21:07:35.711 CET
+Begin processing the 222nd record. Run 1, Event 2808027, LumiSection 6 at 02-Dec-2011 21:07:35.922 CET
+Begin processing the 223rd record. Run 1, Event 2808028, LumiSection 6 at 02-Dec-2011 21:07:36.118 CET
+Begin processing the 224th record. Run 1, Event 2808029, LumiSection 6 at 02-Dec-2011 21:07:36.251 CET
+Begin processing the 225th record. Run 1, Event 2808031, LumiSection 6 at 02-Dec-2011 21:07:36.444 CET
+Begin processing the 226th record. Run 1, Event 2808032, LumiSection 6 at 02-Dec-2011 21:07:36.672 CET
+Begin processing the 227th record. Run 1, Event 2808033, LumiSection 6 at 02-Dec-2011 21:07:36.810 CET
+Begin processing the 228th record. Run 1, Event 2808034, LumiSection 6 at 02-Dec-2011 21:07:36.981 CET
+Begin processing the 229th record. Run 1, Event 2808035, LumiSection 6 at 02-Dec-2011 21:07:37.314 CET
+Begin processing the 230th record. Run 1, Event 2808036, LumiSection 6 at 02-Dec-2011 21:07:37.475 CET
+Begin processing the 231st record. Run 1, Event 2808037, LumiSection 6 at 02-Dec-2011 21:07:37.647 CET
+Begin processing the 232nd record. Run 1, Event 2808038, LumiSection 6 at 02-Dec-2011 21:07:37.773 CET
+Begin processing the 233rd record. Run 1, Event 2808039, LumiSection 6 at 02-Dec-2011 21:07:37.977 CET
+Begin processing the 234th record. Run 1, Event 2808040, LumiSection 6 at 02-Dec-2011 21:07:38.148 CET
+Begin processing the 235th record. Run 1, Event 2808041, LumiSection 6 at 02-Dec-2011 21:07:38.361 CET
+Begin processing the 236th record. Run 1, Event 2808042, LumiSection 6 at 02-Dec-2011 21:07:38.610 CET
+Begin processing the 237th record. Run 1, Event 2808043, LumiSection 6 at 02-Dec-2011 21:07:38.933 CET
+Begin processing the 238th record. Run 1, Event 2808044, LumiSection 6 at 02-Dec-2011 21:07:39.182 CET
+Begin processing the 239th record. Run 1, Event 2808045, LumiSection 6 at 02-Dec-2011 21:07:39.467 CET
+Begin processing the 240th record. Run 1, Event 2808046, LumiSection 6 at 02-Dec-2011 21:07:39.617 CET
+Begin processing the 241st record. Run 1, Event 2808047, LumiSection 6 at 02-Dec-2011 21:07:39.740 CET
+Begin processing the 242nd record. Run 1, Event 2808048, LumiSection 6 at 02-Dec-2011 21:07:39.966 CET
+Begin processing the 243rd record. Run 1, Event 2808049, LumiSection 6 at 02-Dec-2011 21:07:40.195 CET
+Begin processing the 244th record. Run 1, Event 2808050, LumiSection 6 at 02-Dec-2011 21:07:40.332 CET
+Begin processing the 245th record. Run 1, Event 2808051, LumiSection 6 at 02-Dec-2011 21:07:40.492 CET
+Begin processing the 246th record. Run 1, Event 2808052, LumiSection 6 at 02-Dec-2011 21:07:40.771 CET
+Begin processing the 247th record. Run 1, Event 2808053, LumiSection 6 at 02-Dec-2011 21:07:41.018 CET
+Begin processing the 248th record. Run 1, Event 2808054, LumiSection 6 at 02-Dec-2011 21:07:41.253 CET
+Begin processing the 249th record. Run 1, Event 2808055, LumiSection 6 at 02-Dec-2011 21:07:41.761 CET
+Begin processing the 250th record. Run 1, Event 2808056, LumiSection 6 at 02-Dec-2011 21:07:41.963 CET
+Begin processing the 251st record. Run 1, Event 2808057, LumiSection 6 at 02-Dec-2011 21:07:42.115 CET
+Begin processing the 252nd record. Run 1, Event 2808058, LumiSection 6 at 02-Dec-2011 21:07:42.523 CET
+Begin processing the 253rd record. Run 1, Event 2808059, LumiSection 6 at 02-Dec-2011 21:07:42.743 CET
+Begin processing the 254th record. Run 1, Event 2808060, LumiSection 6 at 02-Dec-2011 21:07:43.146 CET
+Begin processing the 255th record. Run 1, Event 2808061, LumiSection 6 at 02-Dec-2011 21:07:43.273 CET
+Begin processing the 256th record. Run 1, Event 2808062, LumiSection 6 at 02-Dec-2011 21:07:43.495 CET
+Begin processing the 257th record. Run 1, Event 2808063, LumiSection 6 at 02-Dec-2011 21:07:43.773 CET
+Begin processing the 258th record. Run 1, Event 2808064, LumiSection 6 at 02-Dec-2011 21:07:44.002 CET
+Begin processing the 259th record. Run 1, Event 2808065, LumiSection 6 at 02-Dec-2011 21:07:44.134 CET
+Begin processing the 260th record. Run 1, Event 2808066, LumiSection 6 at 02-Dec-2011 21:07:44.313 CET
+Begin processing the 261st record. Run 1, Event 2808067, LumiSection 6 at 02-Dec-2011 21:07:44.701 CET
+Begin processing the 262nd record. Run 1, Event 2808068, LumiSection 6 at 02-Dec-2011 21:07:44.861 CET
+Begin processing the 263rd record. Run 1, Event 2808069, LumiSection 6 at 02-Dec-2011 21:07:45.360 CET
+Begin processing the 264th record. Run 1, Event 2808070, LumiSection 6 at 02-Dec-2011 21:07:45.518 CET
+Begin processing the 265th record. Run 1, Event 2808071, LumiSection 6 at 02-Dec-2011 21:07:45.823 CET
+Begin processing the 266th record. Run 1, Event 2808072, LumiSection 6 at 02-Dec-2011 21:07:46.217 CET
+Begin processing the 267th record. Run 1, Event 2808073, LumiSection 6 at 02-Dec-2011 21:07:46.422 CET
+Begin processing the 268th record. Run 1, Event 2808074, LumiSection 6 at 02-Dec-2011 21:07:46.731 CET
+Begin processing the 269th record. Run 1, Event 2808075, LumiSection 6 at 02-Dec-2011 21:07:46.898 CET
+Begin processing the 270th record. Run 1, Event 2808076, LumiSection 6 at 02-Dec-2011 21:07:47.053 CET
+Begin processing the 271st record. Run 1, Event 2808077, LumiSection 6 at 02-Dec-2011 21:07:47.208 CET
+Begin processing the 272nd record. Run 1, Event 2808078, LumiSection 6 at 02-Dec-2011 21:07:47.371 CET
+Begin processing the 273rd record. Run 1, Event 2808079, LumiSection 6 at 02-Dec-2011 21:07:47.580 CET
+Begin processing the 274th record. Run 1, Event 2808080, LumiSection 6 at 02-Dec-2011 21:07:47.865 CET
+Begin processing the 275th record. Run 1, Event 2808081, LumiSection 6 at 02-Dec-2011 21:07:48.134 CET
+Begin processing the 276th record. Run 1, Event 2808082, LumiSection 6 at 02-Dec-2011 21:07:48.312 CET
+Begin processing the 277th record. Run 1, Event 2808083, LumiSection 6 at 02-Dec-2011 21:07:48.655 CET
+Begin processing the 278th record. Run 1, Event 2808084, LumiSection 6 at 02-Dec-2011 21:07:48.902 CET
+Begin processing the 279th record. Run 1, Event 2808085, LumiSection 6 at 02-Dec-2011 21:07:49.132 CET
+Begin processing the 280th record. Run 1, Event 2808086, LumiSection 6 at 02-Dec-2011 21:07:49.288 CET
+Begin processing the 281st record. Run 1, Event 2808087, LumiSection 6 at 02-Dec-2011 21:07:49.497 CET
+Begin processing the 282nd record. Run 1, Event 2808088, LumiSection 6 at 02-Dec-2011 21:07:49.987 CET
+Begin processing the 283rd record. Run 1, Event 2808089, LumiSection 6 at 02-Dec-2011 21:07:50.267 CET
+Begin processing the 284th record. Run 1, Event 2808090, LumiSection 6 at 02-Dec-2011 21:07:50.471 CET
+Begin processing the 285th record. Run 1, Event 2808091, LumiSection 6 at 02-Dec-2011 21:07:50.764 CET
+Begin processing the 286th record. Run 1, Event 2808092, LumiSection 6 at 02-Dec-2011 21:07:51.335 CET
+Begin processing the 287th record. Run 1, Event 2808094, LumiSection 6 at 02-Dec-2011 21:07:51.491 CET
+Begin processing the 288th record. Run 1, Event 2808095, LumiSection 6 at 02-Dec-2011 21:07:51.670 CET
+Begin processing the 289th record. Run 1, Event 2808096, LumiSection 6 at 02-Dec-2011 21:07:51.829 CET
+Begin processing the 290th record. Run 1, Event 2808097, LumiSection 6 at 02-Dec-2011 21:07:52.059 CET
+Begin processing the 291st record. Run 1, Event 2808098, LumiSection 6 at 02-Dec-2011 21:07:52.222 CET
+Begin processing the 292nd record. Run 1, Event 2808099, LumiSection 6 at 02-Dec-2011 21:07:52.616 CET
+Begin processing the 293rd record. Run 1, Event 2808100, LumiSection 6 at 02-Dec-2011 21:07:52.726 CET
+Begin processing the 294th record. Run 1, Event 2808101, LumiSection 6 at 02-Dec-2011 21:07:53.259 CET
+Begin processing the 295th record. Run 1, Event 2808102, LumiSection 6 at 02-Dec-2011 21:07:53.617 CET
+Begin processing the 296th record. Run 1, Event 2808103, LumiSection 6 at 02-Dec-2011 21:07:53.938 CET
+Begin processing the 297th record. Run 1, Event 2808104, LumiSection 6 at 02-Dec-2011 21:07:54.140 CET
+Begin processing the 298th record. Run 1, Event 2808105, LumiSection 6 at 02-Dec-2011 21:07:54.312 CET
+Begin processing the 299th record. Run 1, Event 2808106, LumiSection 6 at 02-Dec-2011 21:07:54.722 CET
+Begin processing the 300th record. Run 1, Event 2808107, LumiSection 6 at 02-Dec-2011 21:07:54.864 CET
+Begin processing the 301st record. Run 1, Event 2808108, LumiSection 6 at 02-Dec-2011 21:07:55.238 CET
+Begin processing the 302nd record. Run 1, Event 2808109, LumiSection 6 at 02-Dec-2011 21:07:55.506 CET
+Begin processing the 303rd record. Run 1, Event 2808110, LumiSection 6 at 02-Dec-2011 21:07:55.688 CET
+Begin processing the 304th record. Run 1, Event 2808111, LumiSection 6 at 02-Dec-2011 21:07:55.839 CET
+Begin processing the 305th record. Run 1, Event 2808112, LumiSection 6 at 02-Dec-2011 21:07:56.043 CET
+Begin processing the 306th record. Run 1, Event 2808113, LumiSection 6 at 02-Dec-2011 21:07:56.163 CET
+Begin processing the 307th record. Run 1, Event 2808114, LumiSection 6 at 02-Dec-2011 21:07:56.283 CET
+Begin processing the 308th record. Run 1, Event 2808115, LumiSection 6 at 02-Dec-2011 21:07:56.562 CET
+Begin processing the 309th record. Run 1, Event 2808116, LumiSection 6 at 02-Dec-2011 21:07:56.796 CET
+Begin processing the 310th record. Run 1, Event 2808117, LumiSection 6 at 02-Dec-2011 21:07:57.225 CET
+Begin processing the 311th record. Run 1, Event 2808118, LumiSection 6 at 02-Dec-2011 21:07:57.407 CET
+Begin processing the 312th record. Run 1, Event 2808119, LumiSection 6 at 02-Dec-2011 21:07:57.768 CET
+Begin processing the 313th record. Run 1, Event 2808120, LumiSection 6 at 02-Dec-2011 21:07:57.936 CET
+Begin processing the 314th record. Run 1, Event 2808121, LumiSection 6 at 02-Dec-2011 21:07:58.241 CET
+Begin processing the 315th record. Run 1, Event 2808122, LumiSection 6 at 02-Dec-2011 21:07:58.544 CET
+Begin processing the 316th record. Run 1, Event 2808123, LumiSection 6 at 02-Dec-2011 21:07:58.889 CET
+Begin processing the 317th record. Run 1, Event 2808124, LumiSection 6 at 02-Dec-2011 21:07:59.024 CET
+Begin processing the 318th record. Run 1, Event 2808125, LumiSection 6 at 02-Dec-2011 21:07:59.384 CET
+Begin processing the 319th record. Run 1, Event 2808126, LumiSection 6 at 02-Dec-2011 21:07:59.612 CET
+Begin processing the 320th record. Run 1, Event 2808127, LumiSection 6 at 02-Dec-2011 21:07:59.866 CET
+Begin processing the 321st record. Run 1, Event 2808128, LumiSection 6 at 02-Dec-2011 21:08:00.063 CET
+Begin processing the 322nd record. Run 1, Event 2808129, LumiSection 6 at 02-Dec-2011 21:08:00.247 CET
+Begin processing the 323rd record. Run 1, Event 2808130, LumiSection 6 at 02-Dec-2011 21:08:00.463 CET
+Begin processing the 324th record. Run 1, Event 2808131, LumiSection 6 at 02-Dec-2011 21:08:00.609 CET
+Begin processing the 325th record. Run 1, Event 2808132, LumiSection 6 at 02-Dec-2011 21:08:00.797 CET
+Begin processing the 326th record. Run 1, Event 2808133, LumiSection 6 at 02-Dec-2011 21:08:00.930 CET
+Begin processing the 327th record. Run 1, Event 2808134, LumiSection 6 at 02-Dec-2011 21:08:01.054 CET
+Begin processing the 328th record. Run 1, Event 2808135, LumiSection 6 at 02-Dec-2011 21:08:01.286 CET
+Begin processing the 329th record. Run 1, Event 2808136, LumiSection 6 at 02-Dec-2011 21:08:01.440 CET
+Begin processing the 330th record. Run 1, Event 2808137, LumiSection 6 at 02-Dec-2011 21:08:01.699 CET
+Begin processing the 331st record. Run 1, Event 2808138, LumiSection 6 at 02-Dec-2011 21:08:01.884 CET
+Begin processing the 332nd record. Run 1, Event 2808139, LumiSection 6 at 02-Dec-2011 21:08:02.271 CET
+Begin processing the 333rd record. Run 1, Event 2808140, LumiSection 6 at 02-Dec-2011 21:08:02.456 CET
+Begin processing the 334th record. Run 1, Event 2808141, LumiSection 6 at 02-Dec-2011 21:08:02.582 CET
+Begin processing the 335th record. Run 1, Event 2808142, LumiSection 6 at 02-Dec-2011 21:08:03.065 CET
+Begin processing the 336th record. Run 1, Event 2808143, LumiSection 6 at 02-Dec-2011 21:08:03.388 CET
+Begin processing the 337th record. Run 1, Event 2808145, LumiSection 6 at 02-Dec-2011 21:08:03.534 CET
+Begin processing the 338th record. Run 1, Event 2808146, LumiSection 6 at 02-Dec-2011 21:08:03.712 CET
+Begin processing the 339th record. Run 1, Event 2808147, LumiSection 6 at 02-Dec-2011 21:08:03.886 CET
+Begin processing the 340th record. Run 1, Event 2808148, LumiSection 6 at 02-Dec-2011 21:08:04.210 CET
+Begin processing the 341st record. Run 1, Event 2808149, LumiSection 6 at 02-Dec-2011 21:08:04.350 CET
+Begin processing the 342nd record. Run 1, Event 2808150, LumiSection 6 at 02-Dec-2011 21:08:04.537 CET
+Begin processing the 343rd record. Run 1, Event 2808151, LumiSection 6 at 02-Dec-2011 21:08:04.779 CET
+Begin processing the 344th record. Run 1, Event 2808152, LumiSection 6 at 02-Dec-2011 21:08:04.919 CET
+Begin processing the 345th record. Run 1, Event 2808153, LumiSection 6 at 02-Dec-2011 21:08:05.058 CET
+Begin processing the 346th record. Run 1, Event 2808154, LumiSection 6 at 02-Dec-2011 21:08:05.258 CET
+Begin processing the 347th record. Run 1, Event 2808155, LumiSection 6 at 02-Dec-2011 21:08:05.410 CET
+Begin processing the 348th record. Run 1, Event 2808156, LumiSection 6 at 02-Dec-2011 21:08:05.708 CET
+Begin processing the 349th record. Run 1, Event 2808157, LumiSection 6 at 02-Dec-2011 21:08:05.884 CET
+Begin processing the 350th record. Run 1, Event 2808158, LumiSection 6 at 02-Dec-2011 21:08:06.028 CET
+Begin processing the 351st record. Run 1, Event 2808159, LumiSection 6 at 02-Dec-2011 21:08:06.249 CET
+Begin processing the 352nd record. Run 1, Event 2808160, LumiSection 6 at 02-Dec-2011 21:08:06.491 CET
+Begin processing the 353rd record. Run 1, Event 2808161, LumiSection 6 at 02-Dec-2011 21:08:06.638 CET
+Begin processing the 354th record. Run 1, Event 2808162, LumiSection 6 at 02-Dec-2011 21:08:06.933 CET
+Begin processing the 355th record. Run 1, Event 2808163, LumiSection 6 at 02-Dec-2011 21:08:07.144 CET
+Begin processing the 356th record. Run 1, Event 2808164, LumiSection 6 at 02-Dec-2011 21:08:07.307 CET
+Begin processing the 357th record. Run 1, Event 2808165, LumiSection 6 at 02-Dec-2011 21:08:07.531 CET
+Begin processing the 358th record. Run 1, Event 2808166, LumiSection 6 at 02-Dec-2011 21:08:07.671 CET
+Begin processing the 359th record. Run 1, Event 2808167, LumiSection 6 at 02-Dec-2011 21:08:07.911 CET
+Begin processing the 360th record. Run 1, Event 2808168, LumiSection 6 at 02-Dec-2011 21:08:08.229 CET
+Begin processing the 361st record. Run 1, Event 2808169, LumiSection 6 at 02-Dec-2011 21:08:08.479 CET
+Begin processing the 362nd record. Run 1, Event 2808170, LumiSection 6 at 02-Dec-2011 21:08:08.666 CET
+Begin processing the 363rd record. Run 1, Event 2808171, LumiSection 6 at 02-Dec-2011 21:08:08.838 CET
+Begin processing the 364th record. Run 1, Event 2808172, LumiSection 6 at 02-Dec-2011 21:08:08.977 CET
+Begin processing the 365th record. Run 1, Event 2808173, LumiSection 6 at 02-Dec-2011 21:08:09.173 CET
+Begin processing the 366th record. Run 1, Event 2808174, LumiSection 6 at 02-Dec-2011 21:08:09.316 CET
+Begin processing the 367th record. Run 1, Event 2808175, LumiSection 6 at 02-Dec-2011 21:08:09.458 CET
+Begin processing the 368th record. Run 1, Event 2808176, LumiSection 6 at 02-Dec-2011 21:08:09.677 CET
+Begin processing the 369th record. Run 1, Event 2808177, LumiSection 6 at 02-Dec-2011 21:08:09.854 CET
+Begin processing the 370th record. Run 1, Event 2808178, LumiSection 6 at 02-Dec-2011 21:08:10.001 CET
+Begin processing the 371st record. Run 1, Event 2808179, LumiSection 6 at 02-Dec-2011 21:08:10.159 CET
+Begin processing the 372nd record. Run 1, Event 2808180, LumiSection 6 at 02-Dec-2011 21:08:10.629 CET
+Begin processing the 373rd record. Run 1, Event 2808181, LumiSection 6 at 02-Dec-2011 21:08:10.912 CET
+Begin processing the 374th record. Run 1, Event 2808182, LumiSection 6 at 02-Dec-2011 21:08:11.048 CET
+Begin processing the 375th record. Run 1, Event 2808183, LumiSection 6 at 02-Dec-2011 21:08:11.291 CET
+Begin processing the 376th record. Run 1, Event 2808184, LumiSection 6 at 02-Dec-2011 21:08:11.742 CET
+Begin processing the 377th record. Run 1, Event 2808185, LumiSection 6 at 02-Dec-2011 21:08:11.947 CET
+Begin processing the 378th record. Run 1, Event 2808186, LumiSection 6 at 02-Dec-2011 21:08:12.064 CET
+Begin processing the 379th record. Run 1, Event 2808187, LumiSection 6 at 02-Dec-2011 21:08:12.222 CET
+Begin processing the 380th record. Run 1, Event 2808188, LumiSection 6 at 02-Dec-2011 21:08:12.376 CET
+Begin processing the 381st record. Run 1, Event 2808189, LumiSection 6 at 02-Dec-2011 21:08:12.499 CET
+Begin processing the 382nd record. Run 1, Event 2808190, LumiSection 6 at 02-Dec-2011 21:08:12.775 CET
+Begin processing the 383rd record. Run 1, Event 2808191, LumiSection 6 at 02-Dec-2011 21:08:12.932 CET
+Begin processing the 384th record. Run 1, Event 2808192, LumiSection 6 at 02-Dec-2011 21:08:13.122 CET
+Begin processing the 385th record. Run 1, Event 2808193, LumiSection 6 at 02-Dec-2011 21:08:13.330 CET
+Begin processing the 386th record. Run 1, Event 2808194, LumiSection 6 at 02-Dec-2011 21:08:13.572 CET
+Begin processing the 387th record. Run 1, Event 2808195, LumiSection 6 at 02-Dec-2011 21:08:13.785 CET
+Begin processing the 388th record. Run 1, Event 2808196, LumiSection 6 at 02-Dec-2011 21:08:13.949 CET
+Begin processing the 389th record. Run 1, Event 2808197, LumiSection 6 at 02-Dec-2011 21:08:14.120 CET
+Begin processing the 390th record. Run 1, Event 2808198, LumiSection 6 at 02-Dec-2011 21:08:14.420 CET
+Begin processing the 391st record. Run 1, Event 2808199, LumiSection 6 at 02-Dec-2011 21:08:14.533 CET
+Begin processing the 392nd record. Run 1, Event 2808200, LumiSection 6 at 02-Dec-2011 21:08:14.701 CET
+Begin processing the 393rd record. Run 1, Event 2808201, LumiSection 6 at 02-Dec-2011 21:08:15.007 CET
+Begin processing the 394th record. Run 1, Event 2808202, LumiSection 6 at 02-Dec-2011 21:08:15.216 CET
+Begin processing the 395th record. Run 1, Event 2808203, LumiSection 6 at 02-Dec-2011 21:08:15.447 CET
+Begin processing the 396th record. Run 1, Event 2808204, LumiSection 6 at 02-Dec-2011 21:08:15.623 CET
+Begin processing the 397th record. Run 1, Event 2808205, LumiSection 6 at 02-Dec-2011 21:08:15.992 CET
+Begin processing the 398th record. Run 1, Event 2808206, LumiSection 6 at 02-Dec-2011 21:08:16.121 CET
+Begin processing the 399th record. Run 1, Event 2808207, LumiSection 6 at 02-Dec-2011 21:08:16.583 CET
+Begin processing the 400th record. Run 1, Event 2808208, LumiSection 6 at 02-Dec-2011 21:08:16.721 CET
+Begin processing the 401st record. Run 1, Event 2808209, LumiSection 6 at 02-Dec-2011 21:08:16.840 CET
+Begin processing the 402nd record. Run 1, Event 2808210, LumiSection 6 at 02-Dec-2011 21:08:16.966 CET
+Begin processing the 403rd record. Run 1, Event 2808211, LumiSection 6 at 02-Dec-2011 21:08:17.186 CET
+Begin processing the 404th record. Run 1, Event 2808212, LumiSection 6 at 02-Dec-2011 21:08:17.412 CET
+Begin processing the 405th record. Run 1, Event 2808213, LumiSection 6 at 02-Dec-2011 21:08:17.535 CET
+Begin processing the 406th record. Run 1, Event 2808214, LumiSection 6 at 02-Dec-2011 21:08:17.659 CET
+Begin processing the 407th record. Run 1, Event 2808215, LumiSection 6 at 02-Dec-2011 21:08:17.922 CET
+Begin processing the 408th record. Run 1, Event 2808216, LumiSection 6 at 02-Dec-2011 21:08:18.254 CET
+Begin processing the 409th record. Run 1, Event 2808217, LumiSection 6 at 02-Dec-2011 21:08:18.470 CET
+Begin processing the 410th record. Run 1, Event 2808218, LumiSection 6 at 02-Dec-2011 21:08:18.618 CET
+Begin processing the 411th record. Run 1, Event 2808219, LumiSection 6 at 02-Dec-2011 21:08:18.898 CET
+Begin processing the 412th record. Run 1, Event 2808220, LumiSection 6 at 02-Dec-2011 21:08:19.307 CET
+Begin processing the 413th record. Run 1, Event 2808221, LumiSection 6 at 02-Dec-2011 21:08:19.560 CET
+Begin processing the 414th record. Run 1, Event 2808222, LumiSection 6 at 02-Dec-2011 21:08:19.715 CET
+Begin processing the 415th record. Run 1, Event 2808223, LumiSection 6 at 02-Dec-2011 21:08:19.952 CET
+Begin processing the 416th record. Run 1, Event 2808224, LumiSection 6 at 02-Dec-2011 21:08:20.091 CET
+Begin processing the 417th record. Run 1, Event 2808225, LumiSection 6 at 02-Dec-2011 21:08:20.632 CET
+Begin processing the 418th record. Run 1, Event 2808226, LumiSection 6 at 02-Dec-2011 21:08:20.990 CET
+Begin processing the 419th record. Run 1, Event 2808227, LumiSection 6 at 02-Dec-2011 21:08:21.205 CET
+Begin processing the 420th record. Run 1, Event 2808228, LumiSection 6 at 02-Dec-2011 21:08:21.357 CET
+Begin processing the 421st record. Run 1, Event 2808229, LumiSection 6 at 02-Dec-2011 21:08:21.510 CET
+Begin processing the 422nd record. Run 1, Event 2808230, LumiSection 6 at 02-Dec-2011 21:08:21.759 CET
+Begin processing the 423rd record. Run 1, Event 2808231, LumiSection 6 at 02-Dec-2011 21:08:21.927 CET
+Begin processing the 424th record. Run 1, Event 2808232, LumiSection 6 at 02-Dec-2011 21:08:22.062 CET
+Begin processing the 425th record. Run 1, Event 2808233, LumiSection 6 at 02-Dec-2011 21:08:22.296 CET
+Begin processing the 426th record. Run 1, Event 2808234, LumiSection 6 at 02-Dec-2011 21:08:22.545 CET
+Begin processing the 427th record. Run 1, Event 2808235, LumiSection 6 at 02-Dec-2011 21:08:22.788 CET
+Begin processing the 428th record. Run 1, Event 2808236, LumiSection 6 at 02-Dec-2011 21:08:23.128 CET
+Begin processing the 429th record. Run 1, Event 2808237, LumiSection 6 at 02-Dec-2011 21:08:23.260 CET
+Begin processing the 430th record. Run 1, Event 2808238, LumiSection 6 at 02-Dec-2011 21:08:23.541 CET
+Begin processing the 431st record. Run 1, Event 2808239, LumiSection 6 at 02-Dec-2011 21:08:23.849 CET
+Begin processing the 432nd record. Run 1, Event 2808240, LumiSection 6 at 02-Dec-2011 21:08:24.021 CET
+Begin processing the 433rd record. Run 1, Event 2808241, LumiSection 6 at 02-Dec-2011 21:08:24.131 CET
+Begin processing the 434th record. Run 1, Event 2808242, LumiSection 6 at 02-Dec-2011 21:08:24.354 CET
+Begin processing the 435th record. Run 1, Event 2808243, LumiSection 6 at 02-Dec-2011 21:08:24.557 CET
+Begin processing the 436th record. Run 1, Event 2808244, LumiSection 6 at 02-Dec-2011 21:08:24.978 CET
+Begin processing the 437th record. Run 1, Event 2808245, LumiSection 6 at 02-Dec-2011 21:08:25.169 CET
+Begin processing the 438th record. Run 1, Event 2808246, LumiSection 6 at 02-Dec-2011 21:08:25.632 CET
+Begin processing the 439th record. Run 1, Event 2808247, LumiSection 6 at 02-Dec-2011 21:08:25.799 CET
+Begin processing the 440th record. Run 1, Event 2808248, LumiSection 6 at 02-Dec-2011 21:08:25.979 CET
+Begin processing the 441st record. Run 1, Event 2808249, LumiSection 6 at 02-Dec-2011 21:08:26.329 CET
+Begin processing the 442nd record. Run 1, Event 2808250, LumiSection 6 at 02-Dec-2011 21:08:26.651 CET
+Begin processing the 443rd record. Run 1, Event 2808251, LumiSection 6 at 02-Dec-2011 21:08:27.168 CET
+Begin processing the 444th record. Run 1, Event 2808252, LumiSection 6 at 02-Dec-2011 21:08:27.362 CET
+Begin processing the 445th record. Run 1, Event 2808253, LumiSection 6 at 02-Dec-2011 21:08:27.561 CET
+Begin processing the 446th record. Run 1, Event 2808254, LumiSection 6 at 02-Dec-2011 21:08:27.783 CET
+Begin processing the 447th record. Run 1, Event 2808255, LumiSection 6 at 02-Dec-2011 21:08:27.936 CET
+Begin processing the 448th record. Run 1, Event 2808256, LumiSection 6 at 02-Dec-2011 21:08:28.125 CET
+Begin processing the 449th record. Run 1, Event 2808257, LumiSection 6 at 02-Dec-2011 21:08:28.421 CET
+Begin processing the 450th record. Run 1, Event 2808258, LumiSection 6 at 02-Dec-2011 21:08:28.775 CET
+Begin processing the 451st record. Run 1, Event 2808259, LumiSection 6 at 02-Dec-2011 21:08:28.890 CET
+02-Dec-2011 21:08:29 CET  Closed file file:/tmp/oiorio/FE4EF257-A3AB-E011-9698-00304867915A.root
+
+TrigReport ---------- Event  Summary ------------
+TrigReport Events total = 451 passed = 451 failed = 0
+
+TrigReport ---------- Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     1    0        451        451          0          0 pathPreselection
+TrigReport     1    1        451        451          0          0 ZeroIsoLeptonSequence
+TrigReport     1    2        451        451          0          0 baseLeptonSequence
+TrigReport     1    3        451        451          0          0 selection
+
+TrigReport -------End-Path   Summary ------------
+TrigReport  Trig Bit#        Run     Passed     Failed      Error Name
+TrigReport     0    0        451        451          0          0 outpath
+
+TrigReport ---------- Modules in Path: pathPreselection ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    0        451        451          0          0 goodOfflinePrimaryVertices
+TrigReport     1    0        451        451          0          0 simpleEleId95relIso
+TrigReport     1    0        451        451          0          0 simpleEleId90relIso
+TrigReport     1    0        451        451          0          0 simpleEleId85relIso
+TrigReport     1    0        451        451          0          0 simpleEleId80relIso
+TrigReport     1    0        451        451          0          0 simpleEleId70relIso
+TrigReport     1    0        451        451          0          0 simpleEleId60relIso
+TrigReport     1    0        451        451          0          0 simpleEleId95cIso
+TrigReport     1    0        451        451          0          0 simpleEleId90cIso
+TrigReport     1    0        451        451          0          0 simpleEleId85cIso
+TrigReport     1    0        451        451          0          0 simpleEleId80cIso
+TrigReport     1    0        451        451          0          0 simpleEleId70cIso
+TrigReport     1    0        451        451          0          0 simpleEleId60cIso
+TrigReport     1    0        451        451          0          0 eidRobustLoose
+TrigReport     1    0        451        451          0          0 eidRobustTight
+TrigReport     1    0        451        451          0          0 eidRobustHighEnergy
+TrigReport     1    0        451        451          0          0 eidLoose
+TrigReport     1    0        451        451          0          0 eidTight
+TrigReport     1    0        451        451          0          0 pfPileUp
+TrigReport     1    0        451        451          0          0 pfNoPileUp
+TrigReport     1    0        451        451          0          0 pfAllNeutralHadrons
+TrigReport     1    0        451        451          0          0 pfAllChargedHadrons
+TrigReport     1    0        451        451          0          0 pfAllPhotons
+TrigReport     1    0        451        451          0          0 pfAllMuons
+TrigReport     1    0        451        451          0          0 pfMuonsFromVertex
+TrigReport     1    0        451        451          0          0 pfSelectedMuons
+TrigReport     1    0        451        451          0          0 isoDepMuonWithCharged
+TrigReport     1    0        451        451          0          0 isoDepMuonWithNeutral
+TrigReport     1    0        451        451          0          0 isoDepMuonWithPhotons
+TrigReport     1    0        451        451          0          0 isoValMuonWithCharged
+TrigReport     1    0        451        451          0          0 isoValMuonWithNeutral
+TrigReport     1    0        451        451          0          0 isoValMuonWithPhotons
+TrigReport     1    0        451        451          0          0 pfIsolatedMuons
+TrigReport     1    0        451        451          0          0 pfNoMuon
+TrigReport     1    0        451        451          0          0 pfAllElectrons
+TrigReport     1    0        451        451          0          0 pfElectronsFromVertex
+TrigReport     1    0        451        451          0          0 pfSelectedElectrons
+TrigReport     1    0        451        451          0          0 isoDepElectronWithCharged
+TrigReport     1    0        451        451          0          0 isoDepElectronWithNeutral
+TrigReport     1    0        451        451          0          0 isoDepElectronWithPhotons
+TrigReport     1    0        451        451          0          0 isoValElectronWithCharged
+TrigReport     1    0        451        451          0          0 isoValElectronWithNeutral
+TrigReport     1    0        451        451          0          0 isoValElectronWithPhotons
+TrigReport     1    0        451        451          0          0 pfIsolatedElectrons
+TrigReport     1    0        451        451          0          0 pfNoElectron
+TrigReport     1    0        451        451          0          0 kt6PFJets
+TrigReport     1    0        451        451          0          0 pfJets
+TrigReport     1    0        451        451          0          0 pfNoJet
+TrigReport     1    0        451        451          0          0 pfJetTracksAssociatorAtVertex
+TrigReport     1    0        451        451          0          0 pfTauPFJets08Region
+TrigReport     1    0        451        451          0          0 pfTauPileUpVertices
+TrigReport     1    0        451        451          0          0 pfTauTagInfoProducer
+TrigReport     1    0        451        451          0          0 pfJetsPiZeros
+TrigReport     1    0        451        451          0          0 pfJetsLegacyTaNCPiZeros
+TrigReport     1    0        451        451          0          0 pfJetsLegacyHPSPiZeros
+TrigReport     1    0        451        451          0          0 pfTausBase
+TrigReport     1    0        451        451          0          0 pfTausBaseDiscriminationByLeadingTrackFinding
+TrigReport     1    0        451        451          0          0 pfTausBaseDiscriminationByIsolation
+TrigReport     1    0        451        451          0          0 pfTausBaseDiscriminationByLeadingPionPtCut
+TrigReport     1    0        451        451          0          0 pfTaus
+TrigReport     1    0        451        451          0          0 pfNoTau
+TrigReport     1    0        451        451          0          0 pfMET
+TrigReport     1    0        451        451          0          0 electronMatch
+TrigReport     1    0        451        451          0          0 patElectrons
+TrigReport     1    0        451        451          0          0 muonMatch
+TrigReport     1    0        451        451          0          0 patMuons
+TrigReport     1    0        451        451          0          0 pfPileUp
+TrigReport     1    0        451        451          0          0 pfNoPileUp
+TrigReport     1    0        451        451          0          0 pfAllNeutralHadrons
+TrigReport     1    0        451        451          0          0 pfAllChargedHadrons
+TrigReport     1    0        451        451          0          0 pfAllPhotons
+TrigReport     1    0        451        451          0          0 tauIsoDepositPFCandidates
+TrigReport     1    0        451        451          0          0 tauIsoDepositPFChargedHadrons
+TrigReport     1    0        451        451          0          0 tauIsoDepositPFNeutralHadrons
+TrigReport     1    0        451        451          0          0 tauIsoDepositPFGammas
+TrigReport     1    0        451        451          0          0 tauMatch
+TrigReport     1    0        451        451          0          0 tauGenJets
+TrigReport     1    0        451        451          0          0 tauGenJetsSelectorAllHadrons
+TrigReport     1    0        451        451          0          0 tauGenJetMatch
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingTrackFinding
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingTrackPtCut
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingPionPtCut
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByIsolation
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTrackIsolation
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByECALIsolation
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByIsolationUsingLeadingPion
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTrackIsolationUsingLeadingPion
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByECALIsolationUsingLeadingPion
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationAgainstElectron
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationAgainstMuon
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTaNC
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrOnePercent
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrHalfPercent
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrQuarterPercent
+TrigReport     1    0        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrTenthPercent
+TrigReport     1    0        451        451          0          0 patTaus
+TrigReport     1    0        451        451          0          0 kt6PFJets
+TrigReport     1    0        451        451          0          0 patJetCorrFactors
+TrigReport     1    0        451        451          0          0 jetTracksAssociatorAtVertex
+TrigReport     1    0        451        451          0          0 impactParameterTagInfosAOD
+TrigReport     1    0        451        451          0          0 secondaryVertexTagInfosAOD
+TrigReport     1    0        451        451          0          0 softMuonTagInfosAOD
+TrigReport     1    0        451        451          0          0 jetBProbabilityBJetTagsAOD
+TrigReport     1    0        451        451          0          0 jetProbabilityBJetTagsAOD
+TrigReport     1    0        451        451          0          0 trackCountingHighPurBJetTagsAOD
+TrigReport     1    0        451        451          0          0 trackCountingHighEffBJetTagsAOD
+TrigReport     1    0        451        451          0          0 simpleSecondaryVertexHighEffBJetTagsAOD
+TrigReport     1    0        451        451          0          0 simpleSecondaryVertexHighPurBJetTagsAOD
+TrigReport     1    0        451        451          0          0 combinedSecondaryVertexBJetTagsAOD
+TrigReport     1    0        451        451          0          0 combinedSecondaryVertexMVABJetTagsAOD
+TrigReport     1    0        451        451          0          0 softMuonBJetTagsAOD
+TrigReport     1    0        451        451          0          0 softMuonByPtBJetTagsAOD
+TrigReport     1    0        451        451          0          0 softMuonByIP3dBJetTagsAOD
+TrigReport     1    0        451        451          0          0 patJetCharge
+TrigReport     1    0        451        451          0          0 patJetPartonMatch
+TrigReport     1    0        451        451          0          0 genParticlesForJetsNoNu
+TrigReport     1    0        451        451          0          0 iterativeCone5GenJetsNoNu
+TrigReport     1    0        451        451          0          0 ak5GenJetsNoNu
+TrigReport     1    0        451        451          0          0 ak7GenJetsNoNu
+TrigReport     1    0        451        451          0          0 patJetGenJetMatch
+TrigReport     1    0        451        451          0          0 patJetPartons
+TrigReport     1    0        451        451          0          0 patJetPartonAssociation
+TrigReport     1    0        451        451          0          0 patJetFlavourAssociation
+TrigReport     1    0        451        451          0          0 patJets
+TrigReport     1    0        451        451          0          0 patMETs
+TrigReport     1    0        451        451          0          0 patPFParticles
+TrigReport     1    0        451        451          0          0 patCandidateSummary
+TrigReport     1    0        451        451          0          0 selectedPatElectrons
+TrigReport     1    0        451        451          0          0 selectedPatMuons
+TrigReport     1    0        451        451          0          0 selectedPatTaus
+TrigReport     1    0        451        451          0          0 selectedPatJets
+TrigReport     1    0        451        451          0          0 selectedPatPFParticles
+TrigReport     1    0        451        451          0          0 selectedPatCandidateSummary
+TrigReport     1    0        451        451          0          0 countPatElectrons
+TrigReport     1    0        451        451          0          0 countPatMuons
+TrigReport     1    0        451        451          0          0 countPatTaus
+TrigReport     1    0        451        451          0          0 countPatLeptons
+TrigReport     1    0        451        451          0          0 countPatJets
+TrigReport     1    0        451        451          0          0 countPatPFParticles
+
+TrigReport ---------- Modules in Path: ZeroIsoLeptonSequence ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    1        451        451          0          0 pfIsolatedMuonsZeroIso
+TrigReport     1    1        451        451          0          0 muonMatchZeroIso
+TrigReport     1    1        451        451          0          0 patMuonsZeroIso
+TrigReport     1    1        451        451          0          0 pfIsolatedElectronsZeroIso
+TrigReport     1    1        451        451          0          0 patElectronsZeroIso
+
+TrigReport ---------- Modules in Path: baseLeptonSequence ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    2        451        451          0          0 pileUpDumper
+TrigReport     1    2        451        451          0          0 preselectedMETs
+TrigReport     1    2        451        451          0          0 looseMuons
+TrigReport     1    2        451        451          0          0 PVFilterProducer
+TrigReport     1    2        451        451          0          0 looseElectrons
+TrigReport     1    2        451        451          0          0 zVetoElectrons
+TrigReport     1    2        451        451          0          0 topJetsPF
+TrigReport     1    2        451        451          0          0 UnclusteredMETPF
+TrigReport     1    2        451        451          0          0 genJetsPF
+TrigReport     1    2        451        451          0          0 NVertices
+TrigReport     1    2        451        451          0          0 tightMuonsZeroIso
+TrigReport     1    2        451        451          0          0 tightElectronsZeroIso
+TrigReport     1    2        451        451          0          0 tightMuons
+TrigReport     1    2        451        451          0          0 tightElectrons
+TrigReport     1    2        451        451          0          0 PDFInfo
+
+TrigReport ---------- Modules in Path: selection ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     1    3        451        451          0          0 PVFilter
+TrigReport     1    3        451        451          0          0 nTupleTopJetsPF
+TrigReport     1    3        451        451          0          0 nTuplePatMETsPF
+TrigReport     1    3        451        451          0          0 nTupleAllElectrons
+TrigReport     1    3        451        451          0          0 nTupleAllMuons
+TrigReport     1    3        451        451          0          0 nTupleQCDElectrons
+TrigReport     1    3        451        451          0          0 nTupleQCDMuons
+TrigReport     1    3        451        451          0          0 nTupleLooseElectrons
+TrigReport     1    3        451        451          0          0 nTupleLooseMuons
+TrigReport     1    3        451        451          0          0 nTupleElectrons
+TrigReport     1    3        451        451          0          0 nTupleMuons
+TrigReport     1    3        451        451          0          0 nTupleVertices
+
+TrigReport ------ Modules in End-Path: outpath ------------
+TrigReport  Trig Bit#    Visited     Passed     Failed      Error Name
+TrigReport     0    0        451        451          0          0 singleTopNTuple
+TrigReport     0    0        451        451          0          0 singleTopPatTuple
+
+TrigReport ---------- Module Summary ------------
+TrigReport    Visited        Run     Passed     Failed      Error Name
+TrigReport        451        451        451          0          0 goodOfflinePrimaryVertices
+TrigReport        451        451        451          0          0 simpleEleId95relIso
+TrigReport        451        451        451          0          0 simpleEleId90relIso
+TrigReport        451        451        451          0          0 simpleEleId85relIso
+TrigReport        451        451        451          0          0 simpleEleId80relIso
+TrigReport        451        451        451          0          0 simpleEleId70relIso
+TrigReport        451        451        451          0          0 simpleEleId60relIso
+TrigReport        451        451        451          0          0 simpleEleId95cIso
+TrigReport        451        451        451          0          0 simpleEleId90cIso
+TrigReport        451        451        451          0          0 simpleEleId85cIso
+TrigReport        451        451        451          0          0 simpleEleId80cIso
+TrigReport        451        451        451          0          0 simpleEleId70cIso
+TrigReport        451        451        451          0          0 simpleEleId60cIso
+TrigReport        451        451        451          0          0 eidRobustLoose
+TrigReport        451        451        451          0          0 eidRobustTight
+TrigReport        451        451        451          0          0 eidRobustHighEnergy
+TrigReport        451        451        451          0          0 eidLoose
+TrigReport        451        451        451          0          0 eidTight
+TrigReport        902        451        451          0          0 pfPileUp
+TrigReport        902        451        451          0          0 pfNoPileUp
+TrigReport        902        451        451          0          0 pfAllNeutralHadrons
+TrigReport        902        451        451          0          0 pfAllChargedHadrons
+TrigReport        902        451        451          0          0 pfAllPhotons
+TrigReport        451        451        451          0          0 pfAllMuons
+TrigReport        451        451        451          0          0 pfMuonsFromVertex
+TrigReport        451        451        451          0          0 pfSelectedMuons
+TrigReport        451        451        451          0          0 isoDepMuonWithCharged
+TrigReport        451        451        451          0          0 isoDepMuonWithNeutral
+TrigReport        451        451        451          0          0 isoDepMuonWithPhotons
+TrigReport        451        451        451          0          0 isoValMuonWithCharged
+TrigReport        451        451        451          0          0 isoValMuonWithNeutral
+TrigReport        451        451        451          0          0 isoValMuonWithPhotons
+TrigReport        451        451        451          0          0 pfIsolatedMuons
+TrigReport        451        451        451          0          0 pfNoMuon
+TrigReport        451        451        451          0          0 pfAllElectrons
+TrigReport        451        451        451          0          0 pfElectronsFromVertex
+TrigReport        451        451        451          0          0 pfSelectedElectrons
+TrigReport        451        451        451          0          0 isoDepElectronWithCharged
+TrigReport        451        451        451          0          0 isoDepElectronWithNeutral
+TrigReport        451        451        451          0          0 isoDepElectronWithPhotons
+TrigReport        451        451        451          0          0 isoValElectronWithCharged
+TrigReport        451        451        451          0          0 isoValElectronWithNeutral
+TrigReport        451        451        451          0          0 isoValElectronWithPhotons
+TrigReport        451        451        451          0          0 pfIsolatedElectrons
+TrigReport        451        451        451          0          0 pfNoElectron
+TrigReport        902        451        451          0          0 kt6PFJets
+TrigReport        451        451        451          0          0 pfJets
+TrigReport        451        451        451          0          0 pfNoJet
+TrigReport        451        451        451          0          0 pfJetTracksAssociatorAtVertex
+TrigReport        451        451        451          0          0 pfTauPFJets08Region
+TrigReport        451        451        451          0          0 pfTauPileUpVertices
+TrigReport        451        451        451          0          0 pfTauTagInfoProducer
+TrigReport        451        451        451          0          0 pfJetsPiZeros
+TrigReport        451        451        451          0          0 pfJetsLegacyTaNCPiZeros
+TrigReport        451        451        451          0          0 pfJetsLegacyHPSPiZeros
+TrigReport        451        451        451          0          0 pfTausBase
+TrigReport        451        451        451          0          0 pfTausBaseDiscriminationByLeadingTrackFinding
+TrigReport        451        451        451          0          0 pfTausBaseDiscriminationByIsolation
+TrigReport        451        451        451          0          0 pfTausBaseDiscriminationByLeadingPionPtCut
+TrigReport        451        451        451          0          0 pfTaus
+TrigReport        451        451        451          0          0 pfNoTau
+TrigReport        451        451        451          0          0 pfMET
+TrigReport        451        451        451          0          0 electronMatch
+TrigReport        451        451        451          0          0 patElectrons
+TrigReport        451        451        451          0          0 muonMatch
+TrigReport        451        451        451          0          0 patMuons
+TrigReport        451        451        451          0          0 tauIsoDepositPFCandidates
+TrigReport        451        451        451          0          0 tauIsoDepositPFChargedHadrons
+TrigReport        451        451        451          0          0 tauIsoDepositPFNeutralHadrons
+TrigReport        451        451        451          0          0 tauIsoDepositPFGammas
+TrigReport        451        451        451          0          0 tauMatch
+TrigReport        451        451        451          0          0 tauGenJets
+TrigReport        451        451        451          0          0 tauGenJetsSelectorAllHadrons
+TrigReport        451        451        451          0          0 tauGenJetMatch
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingTrackFinding
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingTrackPtCut
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByLeadingPionPtCut
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByIsolation
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTrackIsolation
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByECALIsolation
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByIsolationUsingLeadingPion
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTrackIsolationUsingLeadingPion
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByECALIsolationUsingLeadingPion
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationAgainstElectron
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationAgainstMuon
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTaNC
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrOnePercent
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrHalfPercent
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrQuarterPercent
+TrigReport        451        451        451          0          0 shrinkingConePFTauDiscriminationByTaNCfrTenthPercent
+TrigReport        451        451        451          0          0 patTaus
+TrigReport        451        451        451          0          0 patJetCorrFactors
+TrigReport        451        451        451          0          0 jetTracksAssociatorAtVertex
+TrigReport        451        451        451          0          0 impactParameterTagInfosAOD
+TrigReport        451        451        451          0          0 secondaryVertexTagInfosAOD
+TrigReport        451        451        451          0          0 softMuonTagInfosAOD
+TrigReport        451        451        451          0          0 jetBProbabilityBJetTagsAOD
+TrigReport        451        451        451          0          0 jetProbabilityBJetTagsAOD
+TrigReport        451        451        451          0          0 trackCountingHighPurBJetTagsAOD
+TrigReport        451        451        451          0          0 trackCountingHighEffBJetTagsAOD
+TrigReport        451        451        451          0          0 simpleSecondaryVertexHighEffBJetTagsAOD
+TrigReport        451        451        451          0          0 simpleSecondaryVertexHighPurBJetTagsAOD
+TrigReport        451        451        451          0          0 combinedSecondaryVertexBJetTagsAOD
+TrigReport        451        451        451          0          0 combinedSecondaryVertexMVABJetTagsAOD
+TrigReport        451        451        451          0          0 softMuonBJetTagsAOD
+TrigReport        451        451        451          0          0 softMuonByPtBJetTagsAOD
+TrigReport        451        451        451          0          0 softMuonByIP3dBJetTagsAOD
+TrigReport        451        451        451          0          0 patJetCharge
+TrigReport        451        451        451          0          0 patJetPartonMatch
+TrigReport        451        451        451          0          0 genParticlesForJetsNoNu
+TrigReport        451        451        451          0          0 iterativeCone5GenJetsNoNu
+TrigReport        451        451        451          0          0 ak5GenJetsNoNu
+TrigReport        451        451        451          0          0 ak7GenJetsNoNu
+TrigReport        451        451        451          0          0 patJetGenJetMatch
+TrigReport        451        451        451          0          0 patJetPartons
+TrigReport        451        451        451          0          0 patJetPartonAssociation
+TrigReport        451        451        451          0          0 patJetFlavourAssociation
+TrigReport        451        451        451          0          0 patJets
+TrigReport        451        451        451          0          0 patMETs
+TrigReport        451        451        451          0          0 patPFParticles
+TrigReport        451        451        451          0          0 patCandidateSummary
+TrigReport        451        451        451          0          0 selectedPatElectrons
+TrigReport        451        451        451          0          0 selectedPatMuons
+TrigReport        451        451        451          0          0 selectedPatTaus
+TrigReport        451        451        451          0          0 selectedPatJets
+TrigReport        451        451        451          0          0 selectedPatPFParticles
+TrigReport        451        451        451          0          0 selectedPatCandidateSummary
+TrigReport        451        451        451          0          0 countPatElectrons
+TrigReport        451        451        451          0          0 countPatMuons
+TrigReport        451        451        451          0          0 countPatTaus
+TrigReport        451        451        451          0          0 countPatLeptons
+TrigReport        451        451        451          0          0 countPatJets
+TrigReport        451        451        451          0          0 countPatPFParticles
+TrigReport        451        451        451          0          0 pfIsolatedMuonsZeroIso
+TrigReport        451        451        451          0          0 muonMatchZeroIso
+TrigReport        451        451        451          0          0 patMuonsZeroIso
+TrigReport        451        451        451          0          0 pfIsolatedElectronsZeroIso
+TrigReport        451        451        451          0          0 patElectronsZeroIso
+TrigReport        451        451        451          0          0 pileUpDumper
+TrigReport        451        451        451          0          0 preselectedMETs
+TrigReport        451        451        451          0          0 looseMuons
+TrigReport        451        451        451          0          0 PVFilterProducer
+TrigReport        451        451        451          0          0 looseElectrons
+TrigReport        451        451        451          0          0 zVetoElectrons
+TrigReport        451        451        451          0          0 topJetsPF
+TrigReport        451        451        451          0          0 UnclusteredMETPF
+TrigReport        451        451        451          0          0 genJetsPF
+TrigReport        451        451        451          0          0 NVertices
+TrigReport        451        451        451          0          0 tightMuonsZeroIso
+TrigReport        451        451        451          0          0 tightElectronsZeroIso
+TrigReport        451        451        451          0          0 tightMuons
+TrigReport        451        451        451          0          0 tightElectrons
+TrigReport        451        451        451          0          0 PDFInfo
+TrigReport        451        451        451          0          0 PVFilter
+TrigReport        451        451        451          0          0 nTupleTopJetsPF
+TrigReport        451        451        451          0          0 nTuplePatMETsPF
+TrigReport        451        451        451          0          0 nTupleAllElectrons
+TrigReport        451        451        451          0          0 nTupleAllMuons
+TrigReport        451        451        451          0          0 nTupleQCDElectrons
+TrigReport        451        451        451          0          0 nTupleQCDMuons
+TrigReport        451        451        451          0          0 nTupleLooseElectrons
+TrigReport        451        451        451          0          0 nTupleLooseMuons
+TrigReport        451        451        451          0          0 nTupleElectrons
+TrigReport        451        451        451          0          0 nTupleMuons
+TrigReport        451        451        451          0          0 nTupleVertices
+TrigReport        451        451        451          0          0 TriggerResults
+TrigReport        451        451        451          0          0 singleTopNTuple
+TrigReport        451        451        451          0          0 singleTopPatTuple
+
+TimeReport ---------- Event  Summary ---[sec]----
+TimeReport CPU/event = 0.238374 Real/event = 0.250286
+
+TimeReport ---------- Path   Summary ---[sec]----
+TimeReport             per event          per path-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.218508   0.230424   0.218508   0.230424 pathPreselection
+TimeReport   0.000384   0.000400   0.000384   0.000400 ZeroIsoLeptonSequence
+TimeReport   0.000911   0.000909   0.000911   0.000909 baseLeptonSequence
+TimeReport   0.001213   0.001212   0.001213   0.001212 selection
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event          per path-run 
+
+TimeReport -------End-Path   Summary ---[sec]----
+TimeReport             per event       per endpath-run 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.017312   0.017289   0.017312   0.017289 outpath
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event       per endpath-run 
+
+TimeReport ---------- Modules in Path: pathPreselection ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000929   0.000943   0.000929   0.000943 goodOfflinePrimaryVertices
+TimeReport   0.000499   0.000512   0.000499   0.000512 simpleEleId95relIso
+TimeReport   0.000069   0.000079   0.000069   0.000079 simpleEleId90relIso
+TimeReport   0.000075   0.000076   0.000075   0.000076 simpleEleId85relIso
+TimeReport   0.000111   0.000078   0.000111   0.000078 simpleEleId80relIso
+TimeReport   0.000089   0.000075   0.000089   0.000075 simpleEleId70relIso
+TimeReport   0.000053   0.000076   0.000053   0.000076 simpleEleId60relIso
+TimeReport   0.000064   0.000075   0.000064   0.000075 simpleEleId95cIso
+TimeReport   0.000062   0.000074   0.000062   0.000074 simpleEleId90cIso
+TimeReport   0.000091   0.000074   0.000091   0.000074 simpleEleId85cIso
+TimeReport   0.000071   0.000074   0.000071   0.000074 simpleEleId80cIso
+TimeReport   0.000082   0.000075   0.000082   0.000075 simpleEleId70cIso
+TimeReport   0.000069   0.000074   0.000069   0.000074 simpleEleId60cIso
+TimeReport   0.000069   0.000071   0.000069   0.000071 eidRobustLoose
+TimeReport   0.000053   0.000069   0.000053   0.000069 eidRobustTight
+TimeReport   0.000058   0.000069   0.000058   0.000069 eidRobustHighEnergy
+TimeReport   0.000490   0.000468   0.000490   0.000468 eidLoose
+TimeReport   0.000231   0.000246   0.000231   0.000246 eidTight
+TimeReport   0.033645   0.033953   0.033645   0.033953 pfPileUp
+TimeReport   0.000825   0.000861   0.000825   0.000861 pfNoPileUp
+TimeReport   0.000155   0.000131   0.000155   0.000131 pfAllNeutralHadrons
+TimeReport   0.000448   0.000436   0.000448   0.000436 pfAllChargedHadrons
+TimeReport   0.000266   0.000278   0.000266   0.000278 pfAllPhotons
+TimeReport   0.000033   0.000023   0.000033   0.000023 pfAllMuons
+TimeReport   0.000437   0.000461   0.000437   0.000461 pfMuonsFromVertex
+TimeReport   0.000024   0.000019   0.000024   0.000019 pfSelectedMuons
+TimeReport   0.000098   0.000104   0.000098   0.000104 isoDepMuonWithCharged
+TimeReport   0.000031   0.000033   0.000031   0.000033 isoDepMuonWithNeutral
+TimeReport   0.000029   0.000038   0.000029   0.000038 isoDepMuonWithPhotons
+TimeReport   0.000011   0.000026   0.000011   0.000026 isoValMuonWithCharged
+TimeReport   0.000013   0.000019   0.000013   0.000019 isoValMuonWithNeutral
+TimeReport   0.000033   0.000017   0.000033   0.000017 isoValMuonWithPhotons
+TimeReport   0.000020   0.000020   0.000020   0.000020 pfIsolatedMuons
+TimeReport   0.000845   0.000814   0.000845   0.000814 pfNoMuon
+TimeReport   0.000020   0.000027   0.000020   0.000027 pfAllElectrons
+TimeReport   0.000022   0.000020   0.000022   0.000020 pfElectronsFromVertex
+TimeReport   0.000029   0.000023   0.000029   0.000023 pfSelectedElectrons
+TimeReport   0.000160   0.000160   0.000160   0.000160 isoDepElectronWithCharged
+TimeReport   0.000029   0.000031   0.000029   0.000031 isoDepElectronWithNeutral
+TimeReport   0.000038   0.000037   0.000038   0.000037 isoDepElectronWithPhotons
+TimeReport   0.000018   0.000021   0.000018   0.000021 isoValElectronWithCharged
+TimeReport   0.000024   0.000018   0.000024   0.000018 isoValElectronWithNeutral
+TimeReport   0.000020   0.000017   0.000020   0.000017 isoValElectronWithPhotons
+TimeReport   0.000018   0.000017   0.000018   0.000017 pfIsolatedElectrons
+TimeReport   0.000725   0.000763   0.000725   0.000763 pfNoElectron
+TimeReport   0.044689   0.044729   0.044689   0.044729 kt6PFJets
+TimeReport   0.030991   0.031030   0.030991   0.031030 pfJets
+TimeReport   0.000512   0.000467   0.000512   0.000467 pfNoJet
+TimeReport   0.000942   0.000957   0.000942   0.000957 pfJetTracksAssociatorAtVertex
+TimeReport   0.009901   0.009910   0.009901   0.009910 pfTauPFJets08Region
+TimeReport   0.000162   0.000153   0.000162   0.000153 pfTauPileUpVertices
+TimeReport   0.011847   0.011849   0.011847   0.011849 pfTauTagInfoProducer
+TimeReport   0.001929   0.001945   0.001929   0.001945 pfJetsPiZeros
+TimeReport   0.001310   0.001318   0.001310   0.001318 pfJetsLegacyTaNCPiZeros
+TimeReport   0.000483   0.000471   0.000483   0.000471 pfJetsLegacyHPSPiZeros
+TimeReport   0.002778   0.002786   0.002778   0.002786 pfTausBase
+TimeReport   0.000033   0.000030   0.000033   0.000030 pfTausBaseDiscriminationByLeadingTrackFinding
+TimeReport   0.000115   0.000134   0.000115   0.000134 pfTausBaseDiscriminationByIsolation
+TimeReport   0.000020   0.000019   0.000020   0.000019 pfTausBaseDiscriminationByLeadingPionPtCut
+TimeReport   0.000027   0.000023   0.000027   0.000023 pfTaus
+TimeReport   0.000089   0.000085   0.000089   0.000085 pfNoTau
+TimeReport   0.007852   0.007870   0.007852   0.007870 pfMET
+TimeReport   0.002159   0.002470   0.002159   0.002470 electronMatch
+TimeReport   0.018368   0.028992   0.018368   0.028992 patElectrons
+TimeReport   0.000022   0.000028   0.000022   0.000028 muonMatch
+TimeReport   0.000328   0.000333   0.000328   0.000333 patMuons
+TimeReport   0.000000   0.000001   0.000000   0.000001 pfPileUp
+TimeReport   0.000000   0.000001   0.000000   0.000001 pfNoPileUp
+TimeReport   0.000000   0.000001   0.000000   0.000001 pfAllNeutralHadrons
+TimeReport   0.000000   0.000001   0.000000   0.000001 pfAllChargedHadrons
+TimeReport   0.000000   0.000001   0.000000   0.000001 pfAllPhotons
+TimeReport   0.000160   0.000164   0.000160   0.000164 tauIsoDepositPFCandidates
+TimeReport   0.000058   0.000061   0.000058   0.000061 tauIsoDepositPFChargedHadrons
+TimeReport   0.000047   0.000042   0.000047   0.000042 tauIsoDepositPFNeutralHadrons
+TimeReport   0.000055   0.000060   0.000055   0.000060 tauIsoDepositPFGammas
+TimeReport   0.000024   0.000030   0.000024   0.000030 tauMatch
+TimeReport   0.000038   0.000028   0.000038   0.000028 tauGenJets
+TimeReport   0.000024   0.000020   0.000024   0.000020 tauGenJetsSelectorAllHadrons
+TimeReport   0.000029   0.000028   0.000029   0.000028 tauGenJetMatch
+TimeReport   0.000022   0.000020   0.000022   0.000020 shrinkingConePFTauDiscriminationByLeadingTrackFinding
+TimeReport   0.000016   0.000014   0.000016   0.000014 shrinkingConePFTauDiscriminationByLeadingTrackPtCut
+TimeReport   0.000016   0.000014   0.000016   0.000014 shrinkingConePFTauDiscriminationByLeadingPionPtCut
+TimeReport   0.000049   0.000048   0.000049   0.000048 shrinkingConePFTauDiscriminationByIsolation
+TimeReport   0.000029   0.000037   0.000029   0.000037 shrinkingConePFTauDiscriminationByTrackIsolation
+TimeReport   0.000024   0.000031   0.000024   0.000031 shrinkingConePFTauDiscriminationByECALIsolation
+TimeReport   0.000035   0.000035   0.000035   0.000035 shrinkingConePFTauDiscriminationByIsolationUsingLeadingPion
+TimeReport   0.000022   0.000036   0.000022   0.000036 shrinkingConePFTauDiscriminationByTrackIsolationUsingLeadingPion
+TimeReport   0.000038   0.000032   0.000038   0.000032 shrinkingConePFTauDiscriminationByECALIsolationUsingLeadingPion
+TimeReport   0.000016   0.000016   0.000016   0.000016 shrinkingConePFTauDiscriminationAgainstElectron
+TimeReport   0.000013   0.000015   0.000013   0.000015 shrinkingConePFTauDiscriminationAgainstMuon
+TimeReport   0.000188   0.000181   0.000188   0.000181 shrinkingConePFTauDiscriminationByTaNC
+TimeReport   0.000022   0.000018   0.000022   0.000018 shrinkingConePFTauDiscriminationByTaNCfrOnePercent
+TimeReport   0.000009   0.000016   0.000009   0.000016 shrinkingConePFTauDiscriminationByTaNCfrHalfPercent
+TimeReport   0.000011   0.000015   0.000011   0.000015 shrinkingConePFTauDiscriminationByTaNCfrQuarterPercent
+TimeReport   0.000011   0.000015   0.000011   0.000015 shrinkingConePFTauDiscriminationByTaNCfrTenthPercent
+TimeReport   0.000113   0.000125   0.000113   0.000125 patTaus
+TimeReport   0.000000   0.000001   0.000000   0.000001 kt6PFJets
+TimeReport   0.002454   0.002454   0.002454   0.002454 patJetCorrFactors
+TimeReport   0.000386   0.000386   0.000386   0.000386 jetTracksAssociatorAtVertex
+TimeReport   0.007143   0.007159   0.007143   0.007159 impactParameterTagInfosAOD
+TimeReport   0.004722   0.005154   0.004722   0.005154 secondaryVertexTagInfosAOD
+TimeReport   0.000200   0.000215   0.000200   0.000215 softMuonTagInfosAOD
+TimeReport   0.000140   0.000137   0.000140   0.000137 jetBProbabilityBJetTagsAOD
+TimeReport   0.000124   0.000114   0.000124   0.000114 jetProbabilityBJetTagsAOD
+TimeReport   0.000104   0.000102   0.000104   0.000102 trackCountingHighPurBJetTagsAOD
+TimeReport   0.000100   0.000098   0.000100   0.000098 trackCountingHighEffBJetTagsAOD
+TimeReport   0.000089   0.000095   0.000089   0.000095 simpleSecondaryVertexHighEffBJetTagsAOD
+TimeReport   0.000055   0.000088   0.000055   0.000088 simpleSecondaryVertexHighPurBJetTagsAOD
+TimeReport   0.000727   0.000715   0.000727   0.000715 combinedSecondaryVertexBJetTagsAOD
+TimeReport   0.000703   0.000675   0.000703   0.000675 combinedSecondaryVertexMVABJetTagsAOD
+TimeReport   0.000115   0.000121   0.000115   0.000121 softMuonBJetTagsAOD
+TimeReport   0.000078   0.000087   0.000078   0.000087 softMuonByPtBJetTagsAOD
+TimeReport   0.000082   0.000088   0.000082   0.000088 softMuonByIP3dBJetTagsAOD
+TimeReport   0.000051   0.000065   0.000051   0.000065 patJetCharge
+TimeReport   0.000647   0.000628   0.000647   0.000628 patJetPartonMatch
+TimeReport   0.002922   0.002950   0.002922   0.002950 genParticlesForJetsNoNu
+TimeReport   0.005363   0.005325   0.005363   0.005325 iterativeCone5GenJetsNoNu
+TimeReport   0.001310   0.001343   0.001310   0.001343 ak5GenJetsNoNu
+TimeReport   0.001421   0.001418   0.001421   0.001418 ak7GenJetsNoNu
+TimeReport   0.000086   0.000079   0.000086   0.000079 patJetGenJetMatch
+TimeReport   0.000142   0.000172   0.000142   0.000172 patJetPartons
+TimeReport   0.005443   0.005436   0.005443   0.005436 patJetPartonAssociation
+TimeReport   0.000541   0.000526   0.000541   0.000526 patJetFlavourAssociation
+TimeReport   0.002625   0.002606   0.002625   0.002606 patJets
+TimeReport   0.000171   0.000199   0.000171   0.000199 patMETs
+TimeReport   0.001601   0.001597   0.001601   0.001597 patPFParticles
+TimeReport   0.000135   0.000138   0.000135   0.000138 patCandidateSummary
+TimeReport   0.000022   0.000026   0.000022   0.000026 selectedPatElectrons
+TimeReport   0.000022   0.000019   0.000022   0.000019 selectedPatMuons
+TimeReport   0.000020   0.000027   0.000020   0.000027 selectedPatTaus
+TimeReport   0.001002   0.000991   0.001002   0.000991 selectedPatJets
+TimeReport   0.000523   0.000522   0.000523   0.000522 selectedPatPFParticles
+TimeReport   0.000082   0.000096   0.000082   0.000096 selectedPatCandidateSummary
+TimeReport   0.000007   0.000015   0.000007   0.000015 countPatElectrons
+TimeReport   0.000020   0.000013   0.000020   0.000013 countPatMuons
+TimeReport   0.000016   0.000013   0.000016   0.000013 countPatTaus
+TimeReport   0.000027   0.000024   0.000027   0.000024 countPatLeptons
+TimeReport   0.000031   0.000022   0.000031   0.000022 countPatJets
+TimeReport   0.000044   0.000043   0.000044   0.000043 countPatPFParticles
+
+TimeReport ---------- Modules in Path: ZeroIsoLeptonSequence ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000027   0.000029   0.000027   0.000029 pfIsolatedMuonsZeroIso
+TimeReport   0.000053   0.000041   0.000053   0.000041 muonMatchZeroIso
+TimeReport   0.000144   0.000181   0.000144   0.000181 patMuonsZeroIso
+TimeReport   0.000029   0.000025   0.000029   0.000025 pfIsolatedElectronsZeroIso
+TimeReport   0.000124   0.000118   0.000124   0.000118 patElectronsZeroIso
+
+TimeReport ---------- Modules in Path: baseLeptonSequence ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000124   0.000129   0.000124   0.000129 pileUpDumper
+TimeReport   0.000031   0.000034   0.000031   0.000034 preselectedMETs
+TimeReport   0.000022   0.000018   0.000022   0.000018 looseMuons
+TimeReport   0.000171   0.000164   0.000171   0.000164 PVFilterProducer
+TimeReport   0.000013   0.000017   0.000013   0.000017 looseElectrons
+TimeReport   0.000018   0.000015   0.000018   0.000015 zVetoElectrons
+TimeReport   0.000242   0.000231   0.000242   0.000231 topJetsPF
+TimeReport   0.000051   0.000066   0.000051   0.000066 UnclusteredMETPF
+TimeReport   0.000027   0.000032   0.000027   0.000032 genJetsPF
+TimeReport   0.000020   0.000020   0.000020   0.000020 NVertices
+TimeReport   0.000020   0.000020   0.000020   0.000020 tightMuonsZeroIso
+TimeReport   0.000016   0.000016   0.000016   0.000016 tightElectronsZeroIso
+TimeReport   0.000013   0.000014   0.000013   0.000014 tightMuons
+TimeReport   0.000016   0.000013   0.000016   0.000013 tightElectrons
+TimeReport   0.000098   0.000102   0.000098   0.000102 PDFInfo
+
+TimeReport ---------- Modules in Path: selection ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.000357   0.000349   0.000357   0.000349 PVFilter
+TimeReport   0.000129   0.000135   0.000129   0.000135 nTupleTopJetsPF
+TimeReport   0.000049   0.000046   0.000049   0.000046 nTuplePatMETsPF
+TimeReport   0.000080   0.000084   0.000080   0.000084 nTupleAllElectrons
+TimeReport   0.000095   0.000066   0.000095   0.000066 nTupleAllMuons
+TimeReport   0.000084   0.000111   0.000084   0.000111 nTupleQCDElectrons
+TimeReport   0.000058   0.000069   0.000058   0.000069 nTupleQCDMuons
+TimeReport   0.000078   0.000079   0.000078   0.000079 nTupleLooseElectrons
+TimeReport   0.000075   0.000066   0.000075   0.000066 nTupleLooseMuons
+TimeReport   0.000080   0.000090   0.000080   0.000090 nTupleElectrons
+TimeReport   0.000075   0.000064   0.000075   0.000064 nTupleMuons
+TimeReport   0.000035   0.000039   0.000035   0.000039 nTupleVertices
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ------ Modules in End-Path: outpath ---[sec]----
+TimeReport             per event      per module-visit 
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport   0.003749   0.003732   0.003749   0.003732 singleTopNTuple
+TimeReport   0.013557   0.013551   0.013557   0.013551 singleTopPatTuple
+TimeReport        CPU       Real        CPU       Real Name
+TimeReport             per event      per module-visit 
+
+TimeReport ---------- Module Summary ---[sec]----
+TimeReport             per event        per module-run      per module-visit 
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport   0.000929   0.000943   0.000929   0.000943   0.000929   0.000943 goodOfflinePrimaryVertices
+TimeReport   0.000499   0.000512   0.000499   0.000512   0.000499   0.000512 simpleEleId95relIso
+TimeReport   0.000069   0.000079   0.000069   0.000079   0.000069   0.000079 simpleEleId90relIso
+TimeReport   0.000075   0.000076   0.000075   0.000076   0.000075   0.000076 simpleEleId85relIso
+TimeReport   0.000111   0.000078   0.000111   0.000078   0.000111   0.000078 simpleEleId80relIso
+TimeReport   0.000089   0.000075   0.000089   0.000075   0.000089   0.000075 simpleEleId70relIso
+TimeReport   0.000053   0.000076   0.000053   0.000076   0.000053   0.000076 simpleEleId60relIso
+TimeReport   0.000064   0.000075   0.000064   0.000075   0.000064   0.000075 simpleEleId95cIso
+TimeReport   0.000062   0.000074   0.000062   0.000074   0.000062   0.000074 simpleEleId90cIso
+TimeReport   0.000091   0.000074   0.000091   0.000074   0.000091   0.000074 simpleEleId85cIso
+TimeReport   0.000071   0.000074   0.000071   0.000074   0.000071   0.000074 simpleEleId80cIso
+TimeReport   0.000082   0.000075   0.000082   0.000075   0.000082   0.000075 simpleEleId70cIso
+TimeReport   0.000069   0.000074   0.000069   0.000074   0.000069   0.000074 simpleEleId60cIso
+TimeReport   0.000069   0.000071   0.000069   0.000071   0.000069   0.000071 eidRobustLoose
+TimeReport   0.000053   0.000069   0.000053   0.000069   0.000053   0.000069 eidRobustTight
+TimeReport   0.000058   0.000069   0.000058   0.000069   0.000058   0.000069 eidRobustHighEnergy
+TimeReport   0.000490   0.000468   0.000490   0.000468   0.000490   0.000468 eidLoose
+TimeReport   0.000231   0.000246   0.000231   0.000246   0.000231   0.000246 eidTight
+TimeReport   0.033645   0.033953   0.033645   0.033953   0.016822   0.016977 pfPileUp
+TimeReport   0.000825   0.000862   0.000825   0.000862   0.000412   0.000431 pfNoPileUp
+TimeReport   0.000155   0.000132   0.000155   0.000132   0.000078   0.000066 pfAllNeutralHadrons
+TimeReport   0.000448   0.000436   0.000448   0.000436   0.000224   0.000218 pfAllChargedHadrons
+TimeReport   0.000266   0.000279   0.000266   0.000279   0.000133   0.000139 pfAllPhotons
+TimeReport   0.000033   0.000023   0.000033   0.000023   0.000033   0.000023 pfAllMuons
+TimeReport   0.000437   0.000461   0.000437   0.000461   0.000437   0.000461 pfMuonsFromVertex
+TimeReport   0.000024   0.000019   0.000024   0.000019   0.000024   0.000019 pfSelectedMuons
+TimeReport   0.000098   0.000104   0.000098   0.000104   0.000098   0.000104 isoDepMuonWithCharged
+TimeReport   0.000031   0.000033   0.000031   0.000033   0.000031   0.000033 isoDepMuonWithNeutral
+TimeReport   0.000029   0.000038   0.000029   0.000038   0.000029   0.000038 isoDepMuonWithPhotons
+TimeReport   0.000011   0.000026   0.000011   0.000026   0.000011   0.000026 isoValMuonWithCharged
+TimeReport   0.000013   0.000019   0.000013   0.000019   0.000013   0.000019 isoValMuonWithNeutral
+TimeReport   0.000033   0.000017   0.000033   0.000017   0.000033   0.000017 isoValMuonWithPhotons
+TimeReport   0.000020   0.000020   0.000020   0.000020   0.000020   0.000020 pfIsolatedMuons
+TimeReport   0.000845   0.000814   0.000845   0.000814   0.000845   0.000814 pfNoMuon
+TimeReport   0.000020   0.000027   0.000020   0.000027   0.000020   0.000027 pfAllElectrons
+TimeReport   0.000022   0.000020   0.000022   0.000020   0.000022   0.000020 pfElectronsFromVertex
+TimeReport   0.000029   0.000023   0.000029   0.000023   0.000029   0.000023 pfSelectedElectrons
+TimeReport   0.000160   0.000160   0.000160   0.000160   0.000160   0.000160 isoDepElectronWithCharged
+TimeReport   0.000029   0.000031   0.000029   0.000031   0.000029   0.000031 isoDepElectronWithNeutral
+TimeReport   0.000038   0.000037   0.000038   0.000037   0.000038   0.000037 isoDepElectronWithPhotons
+TimeReport   0.000018   0.000021   0.000018   0.000021   0.000018   0.000021 isoValElectronWithCharged
+TimeReport   0.000024   0.000018   0.000024   0.000018   0.000024   0.000018 isoValElectronWithNeutral
+TimeReport   0.000020   0.000017   0.000020   0.000017   0.000020   0.000017 isoValElectronWithPhotons
+TimeReport   0.000018   0.000017   0.000018   0.000017   0.000018   0.000017 pfIsolatedElectrons
+TimeReport   0.000725   0.000763   0.000725   0.000763   0.000725   0.000763 pfNoElectron
+TimeReport   0.044689   0.044729   0.044689   0.044729   0.022345   0.022365 kt6PFJets
+TimeReport   0.030991   0.031030   0.030991   0.031030   0.030991   0.031030 pfJets
+TimeReport   0.000512   0.000467   0.000512   0.000467   0.000512   0.000467 pfNoJet
+TimeReport   0.000942   0.000957   0.000942   0.000957   0.000942   0.000957 pfJetTracksAssociatorAtVertex
+TimeReport   0.009901   0.009910   0.009901   0.009910   0.009901   0.009910 pfTauPFJets08Region
+TimeReport   0.000162   0.000153   0.000162   0.000153   0.000162   0.000153 pfTauPileUpVertices
+TimeReport   0.011847   0.011849   0.011847   0.011849   0.011847   0.011849 pfTauTagInfoProducer
+TimeReport   0.001929   0.001945   0.001929   0.001945   0.001929   0.001945 pfJetsPiZeros
+TimeReport   0.001310   0.001318   0.001310   0.001318   0.001310   0.001318 pfJetsLegacyTaNCPiZeros
+TimeReport   0.000483   0.000471   0.000483   0.000471   0.000483   0.000471 pfJetsLegacyHPSPiZeros
+TimeReport   0.002778   0.002786   0.002778   0.002786   0.002778   0.002786 pfTausBase
+TimeReport   0.000033   0.000030   0.000033   0.000030   0.000033   0.000030 pfTausBaseDiscriminationByLeadingTrackFinding
+TimeReport   0.000115   0.000134   0.000115   0.000134   0.000115   0.000134 pfTausBaseDiscriminationByIsolation
+TimeReport   0.000020   0.000019   0.000020   0.000019   0.000020   0.000019 pfTausBaseDiscriminationByLeadingPionPtCut
+TimeReport   0.000027   0.000023   0.000027   0.000023   0.000027   0.000023 pfTaus
+TimeReport   0.000089   0.000085   0.000089   0.000085   0.000089   0.000085 pfNoTau
+TimeReport   0.007852   0.007870   0.007852   0.007870   0.007852   0.007870 pfMET
+TimeReport   0.002159   0.002470   0.002159   0.002470   0.002159   0.002470 electronMatch
+TimeReport   0.018368   0.028992   0.018368   0.028992   0.018368   0.028992 patElectrons
+TimeReport   0.000022   0.000028   0.000022   0.000028   0.000022   0.000028 muonMatch
+TimeReport   0.000328   0.000333   0.000328   0.000333   0.000328   0.000333 patMuons
+TimeReport   0.000160   0.000164   0.000160   0.000164   0.000160   0.000164 tauIsoDepositPFCandidates
+TimeReport   0.000058   0.000061   0.000058   0.000061   0.000058   0.000061 tauIsoDepositPFChargedHadrons
+TimeReport   0.000047   0.000042   0.000047   0.000042   0.000047   0.000042 tauIsoDepositPFNeutralHadrons
+TimeReport   0.000055   0.000060   0.000055   0.000060   0.000055   0.000060 tauIsoDepositPFGammas
+TimeReport   0.000024   0.000030   0.000024   0.000030   0.000024   0.000030 tauMatch
+TimeReport   0.000038   0.000028   0.000038   0.000028   0.000038   0.000028 tauGenJets
+TimeReport   0.000024   0.000020   0.000024   0.000020   0.000024   0.000020 tauGenJetsSelectorAllHadrons
+TimeReport   0.000029   0.000028   0.000029   0.000028   0.000029   0.000028 tauGenJetMatch
+TimeReport   0.000022   0.000020   0.000022   0.000020   0.000022   0.000020 shrinkingConePFTauDiscriminationByLeadingTrackFinding
+TimeReport   0.000016   0.000014   0.000016   0.000014   0.000016   0.000014 shrinkingConePFTauDiscriminationByLeadingTrackPtCut
+TimeReport   0.000016   0.000014   0.000016   0.000014   0.000016   0.000014 shrinkingConePFTauDiscriminationByLeadingPionPtCut
+TimeReport   0.000049   0.000048   0.000049   0.000048   0.000049   0.000048 shrinkingConePFTauDiscriminationByIsolation
+TimeReport   0.000029   0.000037   0.000029   0.000037   0.000029   0.000037 shrinkingConePFTauDiscriminationByTrackIsolation
+TimeReport   0.000024   0.000031   0.000024   0.000031   0.000024   0.000031 shrinkingConePFTauDiscriminationByECALIsolation
+TimeReport   0.000035   0.000035   0.000035   0.000035   0.000035   0.000035 shrinkingConePFTauDiscriminationByIsolationUsingLeadingPion
+TimeReport   0.000022   0.000036   0.000022   0.000036   0.000022   0.000036 shrinkingConePFTauDiscriminationByTrackIsolationUsingLeadingPion
+TimeReport   0.000038   0.000032   0.000038   0.000032   0.000038   0.000032 shrinkingConePFTauDiscriminationByECALIsolationUsingLeadingPion
+TimeReport   0.000016   0.000016   0.000016   0.000016   0.000016   0.000016 shrinkingConePFTauDiscriminationAgainstElectron
+TimeReport   0.000013   0.000015   0.000013   0.000015   0.000013   0.000015 shrinkingConePFTauDiscriminationAgainstMuon
+TimeReport   0.000188   0.000181   0.000188   0.000181   0.000188   0.000181 shrinkingConePFTauDiscriminationByTaNC
+TimeReport   0.000022   0.000018   0.000022   0.000018   0.000022   0.000018 shrinkingConePFTauDiscriminationByTaNCfrOnePercent
+TimeReport   0.000009   0.000016   0.000009   0.000016   0.000009   0.000016 shrinkingConePFTauDiscriminationByTaNCfrHalfPercent
+TimeReport   0.000011   0.000015   0.000011   0.000015   0.000011   0.000015 shrinkingConePFTauDiscriminationByTaNCfrQuarterPercent
+TimeReport   0.000011   0.000015   0.000011   0.000015   0.000011   0.000015 shrinkingConePFTauDiscriminationByTaNCfrTenthPercent
+TimeReport   0.000113   0.000125   0.000113   0.000125   0.000113   0.000125 patTaus
+TimeReport   0.002454   0.002454   0.002454   0.002454   0.002454   0.002454 patJetCorrFactors
+TimeReport   0.000386   0.000386   0.000386   0.000386   0.000386   0.000386 jetTracksAssociatorAtVertex
+TimeReport   0.007143   0.007159   0.007143   0.007159   0.007143   0.007159 impactParameterTagInfosAOD
+TimeReport   0.004722   0.005154   0.004722   0.005154   0.004722   0.005154 secondaryVertexTagInfosAOD
+TimeReport   0.000200   0.000215   0.000200   0.000215   0.000200   0.000215 softMuonTagInfosAOD
+TimeReport   0.000140   0.000137   0.000140   0.000137   0.000140   0.000137 jetBProbabilityBJetTagsAOD
+TimeReport   0.000124   0.000114   0.000124   0.000114   0.000124   0.000114 jetProbabilityBJetTagsAOD
+TimeReport   0.000104   0.000102   0.000104   0.000102   0.000104   0.000102 trackCountingHighPurBJetTagsAOD
+TimeReport   0.000100   0.000098   0.000100   0.000098   0.000100   0.000098 trackCountingHighEffBJetTagsAOD
+TimeReport   0.000089   0.000095   0.000089   0.000095   0.000089   0.000095 simpleSecondaryVertexHighEffBJetTagsAOD
+TimeReport   0.000055   0.000088   0.000055   0.000088   0.000055   0.000088 simpleSecondaryVertexHighPurBJetTagsAOD
+TimeReport   0.000727   0.000715   0.000727   0.000715   0.000727   0.000715 combinedSecondaryVertexBJetTagsAOD
+TimeReport   0.000703   0.000675   0.000703   0.000675   0.000703   0.000675 combinedSecondaryVertexMVABJetTagsAOD
+TimeReport   0.000115   0.000121   0.000115   0.000121   0.000115   0.000121 softMuonBJetTagsAOD
+TimeReport   0.000078   0.000087   0.000078   0.000087   0.000078   0.000087 softMuonByPtBJetTagsAOD
+TimeReport   0.000082   0.000088   0.000082   0.000088   0.000082   0.000088 softMuonByIP3dBJetTagsAOD
+TimeReport   0.000051   0.000065   0.000051   0.000065   0.000051   0.000065 patJetCharge
+TimeReport   0.000647   0.000628   0.000647   0.000628   0.000647   0.000628 patJetPartonMatch
+TimeReport   0.002922   0.002950   0.002922   0.002950   0.002922   0.002950 genParticlesForJetsNoNu
+TimeReport   0.005363   0.005325   0.005363   0.005325   0.005363   0.005325 iterativeCone5GenJetsNoNu
+TimeReport   0.001310   0.001343   0.001310   0.001343   0.001310   0.001343 ak5GenJetsNoNu
+TimeReport   0.001421   0.001418   0.001421   0.001418   0.001421   0.001418 ak7GenJetsNoNu
+TimeReport   0.000086   0.000079   0.000086   0.000079   0.000086   0.000079 patJetGenJetMatch
+TimeReport   0.000142   0.000172   0.000142   0.000172   0.000142   0.000172 patJetPartons
+TimeReport   0.005443   0.005436   0.005443   0.005436   0.005443   0.005436 patJetPartonAssociation
+TimeReport   0.000541   0.000526   0.000541   0.000526   0.000541   0.000526 patJetFlavourAssociation
+TimeReport   0.002625   0.002606   0.002625   0.002606   0.002625   0.002606 patJets
+TimeReport   0.000171   0.000199   0.000171   0.000199   0.000171   0.000199 patMETs
+TimeReport   0.001601   0.001597   0.001601   0.001597   0.001601   0.001597 patPFParticles
+TimeReport   0.000135   0.000138   0.000135   0.000138   0.000135   0.000138 patCandidateSummary
+TimeReport   0.000022   0.000026   0.000022   0.000026   0.000022   0.000026 selectedPatElectrons
+TimeReport   0.000022   0.000019   0.000022   0.000019   0.000022   0.000019 selectedPatMuons
+TimeReport   0.000020   0.000027   0.000020   0.000027   0.000020   0.000027 selectedPatTaus
+TimeReport   0.001002   0.000991   0.001002   0.000991   0.001002   0.000991 selectedPatJets
+TimeReport   0.000523   0.000522   0.000523   0.000522   0.000523   0.000522 selectedPatPFParticles
+TimeReport   0.000082   0.000096   0.000082   0.000096   0.000082   0.000096 selectedPatCandidateSummary
+TimeReport   0.000007   0.000015   0.000007   0.000015   0.000007   0.000015 countPatElectrons
+TimeReport   0.000020   0.000013   0.000020   0.000013   0.000020   0.000013 countPatMuons
+TimeReport   0.000016   0.000013   0.000016   0.000013   0.000016   0.000013 countPatTaus
+TimeReport   0.000027   0.000024   0.000027   0.000024   0.000027   0.000024 countPatLeptons
+TimeReport   0.000031   0.000022   0.000031   0.000022   0.000031   0.000022 countPatJets
+TimeReport   0.000044   0.000043   0.000044   0.000043   0.000044   0.000043 countPatPFParticles
+TimeReport   0.000027   0.000029   0.000027   0.000029   0.000027   0.000029 pfIsolatedMuonsZeroIso
+TimeReport   0.000053   0.000041   0.000053   0.000041   0.000053   0.000041 muonMatchZeroIso
+TimeReport   0.000144   0.000181   0.000144   0.000181   0.000144   0.000181 patMuonsZeroIso
+TimeReport   0.000029   0.000025   0.000029   0.000025   0.000029   0.000025 pfIsolatedElectronsZeroIso
+TimeReport   0.000124   0.000118   0.000124   0.000118   0.000124   0.000118 patElectronsZeroIso
+TimeReport   0.000124   0.000129   0.000124   0.000129   0.000124   0.000129 pileUpDumper
+TimeReport   0.000031   0.000034   0.000031   0.000034   0.000031   0.000034 preselectedMETs
+TimeReport   0.000022   0.000018   0.000022   0.000018   0.000022   0.000018 looseMuons
+TimeReport   0.000171   0.000164   0.000171   0.000164   0.000171   0.000164 PVFilterProducer
+TimeReport   0.000013   0.000017   0.000013   0.000017   0.000013   0.000017 looseElectrons
+TimeReport   0.000018   0.000015   0.000018   0.000015   0.000018   0.000015 zVetoElectrons
+TimeReport   0.000242   0.000231   0.000242   0.000231   0.000242   0.000231 topJetsPF
+TimeReport   0.000051   0.000066   0.000051   0.000066   0.000051   0.000066 UnclusteredMETPF
+TimeReport   0.000027   0.000032   0.000027   0.000032   0.000027   0.000032 genJetsPF
+TimeReport   0.000020   0.000020   0.000020   0.000020   0.000020   0.000020 NVertices
+TimeReport   0.000020   0.000020   0.000020   0.000020   0.000020   0.000020 tightMuonsZeroIso
+TimeReport   0.000016   0.000016   0.000016   0.000016   0.000016   0.000016 tightElectronsZeroIso
+TimeReport   0.000013   0.000014   0.000013   0.000014   0.000013   0.000014 tightMuons
+TimeReport   0.000016   0.000013   0.000016   0.000013   0.000016   0.000013 tightElectrons
+TimeReport   0.000098   0.000102   0.000098   0.000102   0.000098   0.000102 PDFInfo
+TimeReport   0.000357   0.000349   0.000357   0.000349   0.000357   0.000349 PVFilter
+TimeReport   0.000129   0.000135   0.000129   0.000135   0.000129   0.000135 nTupleTopJetsPF
+TimeReport   0.000049   0.000046   0.000049   0.000046   0.000049   0.000046 nTuplePatMETsPF
+TimeReport   0.000080   0.000084   0.000080   0.000084   0.000080   0.000084 nTupleAllElectrons
+TimeReport   0.000095   0.000066   0.000095   0.000066   0.000095   0.000066 nTupleAllMuons
+TimeReport   0.000084   0.000111   0.000084   0.000111   0.000084   0.000111 nTupleQCDElectrons
+TimeReport   0.000058   0.000069   0.000058   0.000069   0.000058   0.000069 nTupleQCDMuons
+TimeReport   0.000078   0.000079   0.000078   0.000079   0.000078   0.000079 nTupleLooseElectrons
+TimeReport   0.000075   0.000066   0.000075   0.000066   0.000075   0.000066 nTupleLooseMuons
+TimeReport   0.000080   0.000090   0.000080   0.000090   0.000080   0.000090 nTupleElectrons
+TimeReport   0.000075   0.000064   0.000075   0.000064   0.000075   0.000064 nTupleMuons
+TimeReport   0.000035   0.000039   0.000035   0.000039   0.000035   0.000039 nTupleVertices
+TimeReport   0.000024   0.000034   0.000024   0.000034   0.000024   0.000034 TriggerResults
+TimeReport   0.003749   0.003732   0.003749   0.003732   0.003749   0.003732 singleTopNTuple
+TimeReport   0.013557   0.013551   0.013557   0.013551   0.013557   0.013551 singleTopPatTuple
+TimeReport        CPU       Real        CPU       Real        CPU       Real Name
+TimeReport             per event        per module-run      per module-visit 
+
+T---Report end!
+
+
+=============================================
+
+MessageLogger Summary
+
+ type     category        sev    module        subroutine        count    total
+ ---- -------------------- -- ---------------- ----------------  -----    -----
+    1 fileAction           -s file_close                             1        1
+    2 fileAction           -s file_open                              2        2
+
+ type    category    Examples: run/evt        run/evt          run/evt
+ ---- -------------------- ---------------- ---------------- ----------------
+    1 fileAction           PostEndRun                        
+    2 fileAction           pre-events       pre-events       
+
+Severity    # Occurrences   Total Occurrences
+--------    -------------   -----------------
+System                  3                   3

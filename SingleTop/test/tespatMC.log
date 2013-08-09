@@ -1,0 +1,7 @@
+----- Begin Fatal Exception 07-Aug-2013 12:38:21 CEST-----------------------
+An exception of category 'ConfigFileReadError' occurred while
+   [0] Processing the python configuration file named patMC.py
+Exception Message:
+python encountered the error: <type 'exceptions.IOError'>
+[Errno 2] No such file or directory: 'patMC.py'
+----- End Fatal Exception -------------------------------------------------
