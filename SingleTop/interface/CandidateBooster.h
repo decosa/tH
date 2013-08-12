@@ -58,7 +58,7 @@
 #include "DataFormats/Candidate/interface/NamedCompositeCandidate.h"
 
 
-#include "TopQuarkAnalysis/SingleTop/interface/EquationSolver.h"
+#include "tH/SingleTop/interface/EquationSolver.h"
 #include "PhysicsTools/CandUtils/interface/CenterOfMassBooster.h"
 
 template < typename T >

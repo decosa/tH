@@ -9,7 +9,7 @@
 
 #include "DataFormats/Candidate/interface/CandAssociation.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopNGenParticlesProducer.h"
+#include "tH/SingleTop/interface/SingleTopNGenParticlesProducer.h"
 
 #include "SimDataFormats/GeneratorProducts/interface/LHERunInfoProduct.h"
 #include "SimDataFormats/GeneratorProducts/interface/LHEEventProduct.h"

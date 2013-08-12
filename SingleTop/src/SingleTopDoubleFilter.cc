@@ -2,7 +2,7 @@
 //
 //
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopDoubleFilter.h"
+#include "tH/SingleTop/interface/SingleTopDoubleFilter.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 #include "FWCore/Framework/interface/Frameworkfwd.h"
 

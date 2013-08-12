@@ -14,7 +14,7 @@
 #define MC_DEBUG 0 // 0=false   else -> dont process preselection
 #define C_DEBUG  0 // currently debuging
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopSystematicsTreesDumper.h"
+#include "tH/SingleTop/interface/SingleTopSystematicsTreesDumper.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "FWCore/Common/interface/TriggerNames.h"
 //#include "PhysicsTools/UtilAlgos/interface/TFileService.h"
@@ -30,7 +30,7 @@
 #include "DataFormats/Math/interface/deltaR.h"
 
 #include "CondFormats/JetMETObjects/interface/JetCorrectionUncertainty.h"
-#include "TopQuarkAnalysis/SingleTop/interface/EquationSolver.h"
+#include "tH/SingleTop/interface/EquationSolver.h"
 
 
 namespace LHAPDF

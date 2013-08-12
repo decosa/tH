@@ -38,7 +38,7 @@
 #include "DataFormats/Candidate/interface/NamedCompositeCandidate.h"
 
 //#include "TLorentzVector.h"
-#include "TopQuarkAnalysis/SingleTop/interface/EquationSolver.h"
+#include "tH/SingleTop/interface/EquationSolver.h"
 #include "DataFormats/PatCandidates/interface/Jet.h"
 
 //class JetFlavourIdentifier;

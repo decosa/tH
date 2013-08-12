@@ -9,7 +9,7 @@
 
 #include "DataFormats/Candidate/interface/CandAssociation.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopVertexInfoDumper.h"
+#include "tH/SingleTop/interface/SingleTopVertexInfoDumper.h"
 #include "DataFormats/VertexReco/interface/Vertex.h"
 
 #include <vector>

@@ -150,7 +150,7 @@ process.load("CMGTools.External.pujetidsequence_cff")
 process.pfIsolatedMuonsZeroIso = process.pfIsolatedMuons.clone(combinedIsolationCut =  cms.double(float("inf")),
                                                                isolationCut =  cms.double(float("inf"))
                                                                )
-from TopQuarkAnalysis.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
+from tH.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
 process.patMuonsZeroIso = process.patMuons.clone(pfMuonSource = cms.InputTag("pfIsolatedMuonsZeroIso"))
 # use pf isolation, but do not change matching:
 tmp = process.muonMatch.src
@@ -188,7 +188,7 @@ else:
 ##### Define leptons collections useful in single top analysis
 
 # Veto leptons
-process.load("TopQuarkAnalysis.SingleTop.userDataLeptonProducers_cfi") 
+process.load("tH.SingleTop.userDataLeptonProducers_cfi") 
 
 process.vetoMuons = process.userDataMuons.clone(
     cut = cms.string(" (isGlobalMuon || isTrackerMuon) " +
@@ -244,7 +244,7 @@ process.tightElectronsZeroIso = process.userDataElectrons.clone(
 )
 
 ##### Filtering on leptons numbers
-process.load("TopQuarkAnalysis.SingleTop.leptonCounterFilter_cfi") 
+process.load("tH.SingleTop.leptonCounterFilter_cfi") 
 # Select events with at least 1 tight lepton OR at least one tight leptonNoIso
 process.countLeptons.minNumberLoose = 0
 process.countLeptons.maxNumberLoose = 99
@@ -254,9 +254,9 @@ process.countLeptons.minNumberQCD = 1
 process.countLeptons.maxNumberQCD = 99
 
 # define Jets for single top analysis
-process.load("TopQuarkAnalysis.SingleTop.userDataJetsProducer_cfi") 
+process.load("tH.SingleTop.userDataJetsProducer_cfi") 
 
-process.load("TopQuarkAnalysis.SingleTop.userDataMETsProducer_cfi") 
+process.load("tH.SingleTop.userDataMETsProducer_cfi") 
 
 #definition: Jets Loose
 process.topJetsPF.cut = cms.string("numberOfDaughters()>1 & pt()> 20 && abs(eta())<5 " +
@@ -310,7 +310,7 @@ process.singleTopSkimPath = cms.Path(
     )
 
 # Load recommended event filters
-process.load("TopQuarkAnalysis.SingleTop.SingleTopEventFilters_cff") 
+process.load("tH.SingleTop.SingleTopEventFilters_cff") 
 
 # Define event filtering path
 #process.preselection = cms.Sequence(
@@ -422,7 +422,7 @@ process.MCTruthParticles = cms.EDProducer(
 #############################################
 
 ######### EdmNtuples production ##############
-process.load("TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff")
+process.load("tH.SingleTop.SingleTopNtuplizers_cff")
 
 # Ntuple sequence
 process.genPath = cms.Sequence(
@@ -440,7 +440,7 @@ process.singleTopNtuplePath = cms.Sequence(
 process.singleTopSkimPath += process.singleTopNtuplePath
 if not(isData): process.singleTopSkimPath += process.genPath
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
+from tH.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
 
 #Add MC Truth information:
 doMCTruth = True

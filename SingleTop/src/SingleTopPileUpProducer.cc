@@ -9,7 +9,7 @@
 
 #include "DataFormats/Candidate/interface/CandAssociation.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopPileUpProducer.h"
+#include "tH/SingleTop/interface/SingleTopPileUpProducer.h"
 #include "SimDataFormats/PileupSummaryInfo/interface/PileupSummaryInfo.h" 
 
 #include <vector>

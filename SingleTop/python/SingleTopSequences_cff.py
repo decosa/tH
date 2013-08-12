@@ -1,56 +1,56 @@
 import FWCore.ParameterSet.Config as cms
 
-from TopQuarkAnalysis.SingleTop.SelectionCuts_Skim_cff import *
+from tH.SingleTop.SelectionCuts_Skim_cff import *
 
 from PhysicsTools.HepMCCandAlgos.flavorHistoryPaths_cfi import *
 
 from PhysicsTools.PatAlgos.patSequences_cff import *
 
-from TopQuarkAnalysis.SingleTop.simpleEleIdSequence_cff import *
+from tH.SingleTop.simpleEleIdSequence_cff import *
 
 
-#from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleTopJetsPF
-#from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplePatMETsPF
-#from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleElectrons
-#from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleMuons
-#from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplesSkim
+#from tH.SingleTop.SingleTopNtuplizers_cff import nTupleTopJetsPF
+#from tH.SingleTop.SingleTopNtuplizers_cff import nTuplePatMETsPF
+#from tH.SingleTop.SingleTopNtuplizers_cff import nTupleElectrons
+#from tH.SingleTop.SingleTopNtuplizers_cff import nTupleMuons
+#from tH.SingleTop.SingleTopNtuplizers_cff import nTuplesSkim
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleTopJetsPF
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplePatMETsPF
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplePatType1METsPF
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleElectrons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleMuons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplesSkim
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleTopJetsPF
+from tH.SingleTop.SingleTopNtuplizers_cff import nTuplePatMETsPF
+from tH.SingleTop.SingleTopNtuplizers_cff import nTuplePatType1METsPF
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleElectrons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleMuons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTuplesSkim
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleAllElectrons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleAllMuons
-
-
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleQCDElectrons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleQCDMuons
-
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleAllJets
-
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleVetoElectrons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleVetoElectronsMVA
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleVetoMuons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleVertices
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTupleZVetoElectrons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleAllElectrons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleAllMuons
 
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCLeptons
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCNeutrinos
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCQuarks
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCBQuarks
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTops
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsW
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsBQuark
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsQuark
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsQuarkBar
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsLepton
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsNeutrino
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleQCDElectrons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleQCDMuons
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import nTuplesSkimMCTruth
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleAllJets
+
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleVetoElectrons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleVetoElectronsMVA
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleVetoMuons
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleVertices
+from tH.SingleTop.SingleTopNtuplizers_cff import nTupleZVetoElectrons
+
+
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCLeptons
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCNeutrinos
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCQuarks
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCBQuarks
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTops
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsW
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsBQuark
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsQuark
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsQuarkBar
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsLepton
+from tH.SingleTop.SingleTopNtuplizers_cff import singleTopMCTopsNeutrino
+
+from tH.SingleTop.SingleTopNtuplizers_cff import nTuplesSkimMCTruth
 
 
 

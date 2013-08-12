@@ -80,6 +80,7 @@ process.MuedmNtuplesOut.SelectEvents = cms.untracked.PSet(
         SelectEvents = cms.vstring('triggerMuFilter')
             )
 
-process.edmNtuplesOut.dropMetaData = cms.untracked.string('ALL')
+process.MuedmNtuplesOut.dropMetaData = cms.untracked.string('ALL')
+process.EledmNtuplesOut.dropMetaData = cms.untracked.string('ALL')
 
 process.endPath = cms.EndPath(process.EledmNtuplesOut + process.MuedmNtuplesOut)

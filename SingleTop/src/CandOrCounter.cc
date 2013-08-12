@@ -8,7 +8,7 @@
 
 #include "DataFormats/Candidate/interface/Candidate.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
-#include "TopQuarkAnalysis/SingleTop/interface/CandOrCounter.h"
+#include "tH/SingleTop/interface/CandOrCounter.h"
 #include "DataFormats/Math/interface/deltaR.h"
 
 

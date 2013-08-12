@@ -51,7 +51,7 @@
 
 #include "FWCore/Framework/interface/Selector.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopElectronProducer.h"
+#include "tH/SingleTop/interface/SingleTopElectronProducer.h"
 
 
 #include "DataFormats/Scalers/interface/DcsStatus.h"

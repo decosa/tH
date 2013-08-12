@@ -2,7 +2,7 @@
 //
 //
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopDoubleCounter.h"
+#include "tH/SingleTop/interface/SingleTopDoubleCounter.h"
 #include "FWCore/MessageLogger/interface/MessageLogger.h"
 #include "FWCore/Framework/interface/Frameworkfwd.h"
 

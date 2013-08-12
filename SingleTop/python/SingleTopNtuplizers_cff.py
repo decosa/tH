@@ -6,7 +6,7 @@ nTupleTopJetsPF = cms.EDProducer(
     src = cms.InputTag("topJetsPF"),
     lazyParser = cms.untracked.bool(True),
     prefix = cms.untracked.string("topJetsPF"),
-    
+    eventInfo=cms.untracked.bool(True),    
     variables = cms.VPSet(
     cms.PSet(
     #B-Tagging
@@ -771,7 +771,7 @@ saveNTuplesSkim = cms.untracked.vstring(
 
     'keep floats_nTupleAllJets_*_*',
     'keep floats_nTuplePatMETsPF_*_*',
-    'keep floats_nTupleTopJetsPF_*_*',
+    'keep *_nTupleTopJetsPF_*_*',
     'keep *_NVertices_*_*',
     'keep *_NGenParticles_*_*',
     'keep floats_nTuplePatType1METsPF_*_*',

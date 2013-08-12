@@ -64,7 +64,7 @@
 
 
 //#include "TLorentzVector.h"
-#include "TopQuarkAnalysis/SingleTop/interface/EquationSolver.h"
+#include "tH/SingleTop/interface/EquationSolver.h"
 
 #include "CMGTools/External/interface/PileupJetIdentifier.h"
 #include "FWCore/ParameterSet/interface/FileInPath.h"

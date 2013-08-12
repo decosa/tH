@@ -20,7 +20,7 @@
 #define C_DEBUG  0 // currently debuging
 
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopAnalyzer.h"
+#include "tH/SingleTop/interface/SingleTopAnalyzer.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "FWCore/Common/interface/TriggerNames.h"
 //#include "PhysicsTools/UtilAlgos/interface/TFileService.h"

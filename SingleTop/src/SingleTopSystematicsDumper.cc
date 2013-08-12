@@ -14,7 +14,7 @@
 #define MC_DEBUG 0 // 0=false   else -> dont process preselection
 #define C_DEBUG  0 // currently debuging
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopSystematicsDumper.h"
+#include "tH/SingleTop/interface/SingleTopSystematicsDumper.h"
 #include "FWCore/ServiceRegistry/interface/Service.h"
 #include "FWCore/Common/interface/TriggerNames.h"
 //#include "PhysicsTools/UtilAlgos/interface/TFileService.h"
@@ -28,7 +28,7 @@
 
 
 #include "CondFormats/JetMETObjects/interface/JetCorrectionUncertainty.h";
-#include "TopQuarkAnalysis/SingleTop/interface/EquationSolver.h"
+#include "tH/SingleTop/interface/EquationSolver.h"
 
 SingleTopSystematicsDumper::SingleTopSystematicsDumper(const edm::ParameterSet& iConfig)
 {

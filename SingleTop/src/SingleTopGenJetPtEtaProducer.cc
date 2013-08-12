@@ -9,7 +9,7 @@
 
 #include "DataFormats/Candidate/interface/CandAssociation.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopGenJetPtEtaProducer.h"
+#include "tH/SingleTop/interface/SingleTopGenJetPtEtaProducer.h"
 
 #include <vector>
 #include <memory>

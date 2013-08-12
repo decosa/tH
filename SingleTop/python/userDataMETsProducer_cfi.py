@@ -8,8 +8,8 @@ topMETsPF = cms.EDProducer("SingleTopMETsProducer",
                          jetsSrc = cms.InputTag("selectedPatJets"),
                          muonsSrc = cms.InputTag("selectedPatMuons"),
                          isData = cms.untracked.bool(False),
-                         JESUncertaintiesPath = cms.FileInPath("TopQuarkAnalysis/SingleTop/data/Summer13_V1_DATA_UncertaintySources_AK5PFchs.txt")
+                         JESUncertaintiesPath = cms.FileInPath("tH/SingleTop/data/Summer13_V1_DATA_UncertaintySources_AK5PFchs.txt")
                            
-#                         JESUncertaintiesPath = cms.FileInPath("TopQuarkAnalysis/SingleTop/data/START53_V22_Uncertainty_AK5PFchs.txt")
+#                         JESUncertaintiesPath = cms.FileInPath("tH/SingleTop/data/START53_V22_Uncertainty_AK5PFchs.txt")
                          )
 

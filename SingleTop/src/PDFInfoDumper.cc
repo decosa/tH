@@ -17,7 +17,7 @@
 
 #include "DataFormats/Math/interface/LorentzVector.h"
 #include "SimDataFormats/GeneratorProducts/interface/GenEventInfoProduct.h"
-#include "TopQuarkAnalysis/SingleTop/interface/PDFInfoDumper.h"
+#include "tH/SingleTop/interface/PDFInfoDumper.h"
 
 //using namespace pat;
 

@@ -8,7 +8,7 @@
 
 #include "DataFormats/Candidate/interface/Candidate.h"
 #include "FWCore/Framework/interface/MakerMacros.h"
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopLeptonCounter.h"
+#include "tH/SingleTop/interface/SingleTopLeptonCounter.h"
 #include "DataFormats/Math/interface/deltaR.h"
 
 

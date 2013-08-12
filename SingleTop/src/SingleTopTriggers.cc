@@ -4,7 +4,7 @@
 #include <set>
 
 // user include files
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopTriggers.h"
+#include "tH/SingleTop/interface/SingleTopTriggers.h"
 
 #include "FWCore/Utilities/interface/InputTag.h"
 #include "FWCore/Framework/interface/Frameworkfwd.h"

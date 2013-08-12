@@ -27,7 +27,7 @@ isData = True
 process.GlobalTag.globaltag = cms.string('FT_53_V6C_AN3::All')
 
 #Single top and pat sequences:
-process.load("TopQuarkAnalysis.SingleTop.SingleTopSequences_cff") 
+process.load("tH.SingleTop.SingleTopSequences_cff") 
 process.load("SelectionCuts_Skim_cff")################<----------Cuts file
 process.load("PhysicsTools.PatAlgos.patSequences_cff") 
 
@@ -98,7 +98,7 @@ process.topJetsPF.isData = isData
 process.pfIsolatedMuonsZeroIso = process.pfIsolatedMuons.clone(combinedIsolationCut =  cms.double(float("inf")),
                                                                isolationCut =  cms.double(float("inf")),
                                                                )
-from TopQuarkAnalysis.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
+from tH.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
 
 process.patMuonsZeroIso = process.patMuons.clone(pfMuonSource = cms.InputTag("pfIsolatedMuonsZeroIso"))
 process.patMuonsZeroIso.pfMuonSource = cms.InputTag("pfIsolatedMuonsZeroIso")
@@ -149,8 +149,8 @@ process.pathSelection = cms.Path(
 doMCTruth = True 
 if isData: doMCTruth = False  
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimMu
+from tH.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
+from tH.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimMu
 
 #Objects included in the pat-tuples
 savePatTupleSkimLoose = cms.untracked.vstring(

@@ -84,7 +84,7 @@
 #include "PhysicsTools/Utilities/interface/LumiReWeighting.h"
 
 //#include "PhysicsTools/Utilities/interface/Lumi3DReWeighting.h"
-//#include "TopQuarkAnalysis/SingleTop/interface/Lumi3DReWeighting.h"
+//#include "tH/SingleTop/interface/Lumi3DReWeighting.h"
 
 
 using namespace std;

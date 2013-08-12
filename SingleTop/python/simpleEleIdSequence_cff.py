@@ -1,6 +1,6 @@
 import FWCore.ParameterSet.Config as cms
 
-from TopQuarkAnalysis.SingleTop.simpleCutBasedElectronIDSpring10_cfi import *
+from tH.SingleTop.simpleCutBasedElectronIDSpring10_cfi import *
 
 simpleEleId95relIso = simpleCutBasedElectronID.clone()
 simpleEleId95relIso.electronQuality = '95relIso'

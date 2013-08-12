@@ -45,7 +45,7 @@
 #include "FWCore/Framework/interface/Selector.h"
 #include "CondFormats/JetMETObjects/interface/JetCorrectionUncertainty.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopMETsProducer.h"
+#include "tH/SingleTop/interface/SingleTopMETsProducer.h"
 
 #include <vector>
 #include <memory>

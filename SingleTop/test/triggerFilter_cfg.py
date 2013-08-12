@@ -19,7 +19,7 @@ process.options   = cms.untracked.PSet( wantSummary = cms.untracked.bool(True) )
 process.source = cms.Source("PoolSource")
 
 ### Indicate here the input file
-process.source.fileNames=cms.untracked.vstring('file:singleTopEdmNtuple_TChannel.root')
+process.source.fileNames=cms.untracked.vstring('file:tHEdmNtuple_TChannel.root')
 #process.source.fileNames=cms.untracked.vstring('file:edmNtupleTest.root')
 
 ### Indicate here the number of events on which perform the selection

@@ -11,8 +11,8 @@ process.options = cms.untracked.PSet(
     FailPath = cms.untracked.vstring('ProductNotFound','Type Mismatch')
     )
 
+#process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(10) )
 process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
-#process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(-1) )
 
 ChannelName = "TChannel"
 
@@ -21,14 +21,14 @@ ChannelName = "TChannel"
 process.source = cms.Source (
     "PoolSource",
     fileNames = cms.untracked.vstring (
-      "file:8425E88A-AED7-E211-8067-002481E14F5C.root"
+      "file:/scratch/decosa/tH/synchro_sample/8425E88A-AED7-E211-8067-002481E14F5C.root"
 #      "file:/data3/scratch/cms/mc/testsamples/T_t-channel_Synch.root"
 #    "file:/afs/cern.ch/work/o/oiorio/public/xFrancescoFab/DataReRecoA.root"
     ),
     duplicateCheckMode = cms.untracked.string('noDuplicateCheck')
 )
 
-process.MessageLogger.cerr.FwkReport.reportEvery = 10
+process.MessageLogger.cerr.FwkReport.reportEvery = 100
 
 #Data or MC:
 isData = False
@@ -159,10 +159,15 @@ process.load("CMGTools.External.pujetidsequence_cff")
 # They will be used to get anti-isolated leptons:
 
 # MuonsZeroIso
+process.pfIsolatedMuons.doDeltaBetaCorrection = True
+process.pfIsolatedMuons.deltaBetaFactor = -0.5
+process.pfIsolatedMuons.isolationCut = 0.2
+
+
 process.pfIsolatedMuonsZeroIso = process.pfIsolatedMuons.clone(combinedIsolationCut =  cms.double(float("inf")),
                                                                isolationCut =  cms.double(float("inf"))
                                                                )
-from TopQuarkAnalysis.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
+from tH.SingleTop.AdaptPFMuonsFix_cff import adaptPFMuonsAnd
 process.patMuonsZeroIso = process.patMuons.clone(pfMuonSource = cms.InputTag("pfIsolatedMuonsZeroIso"))
 # use pf isolation, but do not change matching:
 tmp = process.muonMatch.src
@@ -200,7 +205,7 @@ else:
 ##### Define leptons collections useful in single top analysis
 
 # Veto leptons
-process.load("TopQuarkAnalysis.SingleTop.userDataLeptonProducers_cfi") 
+process.load("tH.SingleTop.userDataLeptonProducers_cfi") 
 
 process.vetoMuons = process.userDataMuons.clone(
     cut = cms.string(" isPFMuon && (isGlobalMuon || isTrackerMuon) " +
@@ -209,14 +214,14 @@ process.vetoMuons = process.userDataMuons.clone(
 )
 
 process.vetoElectrons = process.userDataElectrons.clone(
-    cut = cms.string("ecalDrivenMomentum.pt > 20 " +
+    cut = cms.string("isPF && ecalDrivenMomentum.pt > 20 " +
                      "& abs(eta) < 2.5 " +
                      "& userFloat(\"RhoCorrectedIso\") <0.15") # +
                      #"& userFloat(\"PassesVetoID\") >0.0")
 )
 
 process.vetoElectronsMVA = process.userDataElectrons.clone(
-    cut =  cms.string(" ecalDrivenMomentum.pt > 20" +
+    cut =  cms.string(" isPF && ecalDrivenMomentum.pt > 20" +
                       "& abs(eta) < 2.5 && userFloat(\"RhoCorrectedIso\") <0.15" )#+
                       #"& electronID('mvaTrigV0') >0.0")
 )
@@ -232,7 +237,7 @@ process.tightMuons = process.userDataMuons.clone(
 )
 
 process.tightElectrons = process.userDataElectrons.clone(
-    cut =  cms.string(" ecalDrivenMomentum.pt > 30  && abs(eta)<2.5" +
+    cut =  cms.string(" isPF && ecalDrivenMomentum.pt > 30  && abs(eta)<2.5" +
                       "& ( abs(superCluster.eta)> 1.5660 || abs(superCluster.eta)<1.4442)" +
                       "& gsfTrack.trackerExpectedHitsInner.numberOfHits <=0" +
                       "& passConversionVeto" +
@@ -250,13 +255,13 @@ process.tightMuonsZeroIso = process.userDataMuons.clone(
 
 process.tightElectronsZeroIso = process.userDataElectrons.clone(
     src = cms.InputTag("patElectronsZeroIso"),
-    cut =  cms.string(" ecalDrivenMomentum.pt > 30  && abs(eta)<2.5" +
+    cut =  cms.string(" isPF && ecalDrivenMomentum.pt > 30  && abs(eta)<2.5" +
                       "& ( abs(superCluster.eta)> 1.5660 || abs(superCluster.eta)<1.4442)" +
                       "& passConversionVeto")
 )
 
 ##### Filtering on leptons numbers
-process.load("TopQuarkAnalysis.SingleTop.leptonCounterFilter_cfi") 
+process.load("tH.SingleTop.leptonCounterFilter_cfi") 
 # Select events with at least 1 tight lepton OR at least one tight leptonNoIso
 process.countLeptons.minNumberLoose = 0
 process.countLeptons.maxNumberLoose = 99
@@ -268,9 +273,9 @@ process.countLeptons.minNumberQCD = 0
 process.countLeptons.maxNumberQCD = 99
 
 # define Jets for single top analysis
-process.load("TopQuarkAnalysis.SingleTop.userDataJetsProducer_cfi") 
+process.load("tH.SingleTop.userDataJetsProducer_cfi") 
 
-process.load("TopQuarkAnalysis.SingleTop.userDataMETsProducer_cfi") 
+process.load("tH.SingleTop.userDataMETsProducer_cfi") 
 
 #definition: Jets Loose
 process.topJetsPF.cut = cms.string("numberOfDaughters()>1 & pt()> 10 && abs(eta())<4.7 " +
@@ -333,7 +338,7 @@ process.singleTopSkimPath = cms.Path(
     )
 
 # Load recommended event filters
-process.load("TopQuarkAnalysis.SingleTop.SingleTopEventFilters_cff") 
+process.load("tH.SingleTop.SingleTopEventFilters_cff") 
 
 # Define event filtering path
 #process.preselection = cms.Sequence(
@@ -401,7 +406,7 @@ savePatTupleSkimLoose = cms.untracked.vstring(
 
 process.singleTopPatTuple = cms.OutputModule(
     "PoolOutputModule",
-    fileName = cms.untracked.string('singleTopSkim_'+ChannelName+'.root'),
+    fileName = cms.untracked.string('tHSkim_'+ChannelName+'.root'),
     SelectEvents   = cms.untracked.PSet(
       SelectEvents = cms.vstring()
 #        'preselection')
@@ -445,7 +450,7 @@ process.MCTruthParticles = cms.EDProducer(
 #############################################
 
 ######### EdmNtuples production ##############
-process.load("TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff")
+process.load("tH.SingleTop.SingleTopNtuplizers_cff")
 
 # Ntuple sequence
 process.genPath = cms.Sequence(
@@ -463,7 +468,7 @@ process.singleTopNtuplePath = cms.Sequence(
 process.singleTopSkimPath += process.singleTopNtuplePath
 if not(isData): process.singleTopSkimPath += process.genPath
 
-from TopQuarkAnalysis.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
+from tH.SingleTop.SingleTopNtuplizers_cff import saveNTuplesSkimLoose
 
 #Add MC Truth information:
 doMCTruth = True
@@ -495,7 +500,7 @@ if doMCTruth:
 ## Output module configuration
 process.singleTopNTupleOut = cms.OutputModule(
     "PoolOutputModule",
-    fileName = cms.untracked.string('singleTopEdmNtuple_'+ChannelName+'.root'),
+    fileName = cms.untracked.string('tHEdmNtuple_'+ChannelName+'.root'),
     SelectEvents   = cms.untracked.PSet( SelectEvents = cms.vstring() ),#'preselection')),
     outputCommands = saveNTuplesSkimLoose,
     )

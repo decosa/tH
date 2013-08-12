@@ -3,7 +3,7 @@
 // Package:    SimpleEventDumper
 // Class:      SimpleEventDumper
 // 
-/**\class SimpleEventDumper SimpleEventDumper.cc TopQuarkAnalysis/SimpleEventDumper/src/SimpleEventDumper.cc
+/**\class SimpleEventDumper SimpleEventDumper.cc tH/SimpleEventDumper/src/SimpleEventDumper.cc
 
  Description: [one line class summary]
 

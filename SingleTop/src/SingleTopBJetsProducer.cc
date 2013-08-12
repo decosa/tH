@@ -44,7 +44,7 @@
 
 
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopBJetsProducer.h"
+#include "tH/SingleTop/interface/SingleTopBJetsProducer.h"
 
 #include <vector>
 #include <memory>

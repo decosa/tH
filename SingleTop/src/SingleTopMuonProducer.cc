@@ -40,7 +40,7 @@
 
 #include "FWCore/Framework/interface/Selector.h"
 
-#include "TopQuarkAnalysis/SingleTop/interface/SingleTopMuonProducer.h"
+#include "tH/SingleTop/interface/SingleTopMuonProducer.h"
 
 
 #include "DataFormats/Scalers/interface/DcsStatus.h"

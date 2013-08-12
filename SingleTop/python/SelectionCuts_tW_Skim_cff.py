@@ -1,7 +1,7 @@
 import FWCore.ParameterSet.Config as cms
 
-from TopQuarkAnalysis.SingleTop.SingleTopProducers_cff import *
-from TopQuarkAnalysis.SingleTop.SingleTopSelectors_cff import *
+from tH.SingleTop.SingleTopProducers_cff import *
+from tH.SingleTop.SingleTopSelectors_cff import *
 
 #### Set the cuts values ####
 

@@ -29,7 +29,7 @@
 #include <boost/shared_ptr.hpp>
 #include "SimDataFormats/PileupSummaryInfo/interface/PileupSummaryInfo.h" 
 //#include "PhysicsTools/Utilities/interface/Lumi3DReWeighting.h"
-#include "TopQuarkAnalysis/SingleTop/interface/Lumi3DReWeighting.h"
+#include "tH/SingleTop/interface/Lumi3DReWeighting.h"
 #include "DataFormats/Common/interface/Handle.h"
 #include "DataFormats/Provenance/interface/ProcessHistory.h"
 #include "DataFormats/Provenance/interface/Provenance.h"
